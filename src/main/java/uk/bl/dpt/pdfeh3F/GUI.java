@@ -79,6 +79,7 @@ public class GUI extends Application {
 		Button buttonValidate = new Button("Validate");
 		buttonValidate.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent arg0) {
+				clearTextFields();
 				if (pdfDir != null && pdfDir.exists()) {
 					validatePDFs(pdfDir);
 				}
@@ -157,6 +158,12 @@ public class GUI extends Application {
 		stage.show();
 	}
 
+	protected void clearTextFields() {
+		resultsTextArea.setText("");
+		resultsXMLTextArea.setText("");
+		
+	}
+
 	protected void validatePDFs(File pdfDir) {
 		walkTreeAndValidate(pdfDir);
 	}
@@ -168,8 +175,11 @@ public class GUI extends Application {
 				walkTreeAndValidate(f);
 			}
 		} else { // is a file presumably!
+			
 			PDFValidator v = new PDFValidator(current);
+			
 			String ctext = resultsTextArea.getText();
+
 			resultsTextArea.setText(ctext + "\nTesting " + current.getName());
 			v.validate();
 			if ( v.isValid() ) {
