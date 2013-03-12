@@ -27,7 +27,7 @@ public class PDFValidator {
 	public PDFValidator(File source) {
 		this.source = source;
 		resultBuilder = new StringBuilder();
-		resultBuilder.append("<?xml version=\"1.0\" ?>");
+		resultBuilder.append("<?xml version=\"1.0\" ?>\n");
 	}
 
 	public String getResult() {
