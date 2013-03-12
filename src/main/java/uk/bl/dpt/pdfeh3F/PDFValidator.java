@@ -26,6 +26,7 @@ public class PDFValidator {
 	public PDFValidator(File source) {
 		this.source = source;
 		resultBuilder = new StringBuilder();
+		resultBuilder.append("<?xml version=\"1.0\" ?>");
 	}
 
 	public String getResult() {
@@ -53,17 +54,17 @@ public class PDFValidator {
 			}
 		} catch (Exception e) {
 			resultBuilder.append("<preflight name=\""
-					+ source.getAbsolutePath() + "\">");
+					+ source.getAbsolutePath() + "\">\n");
 			resultBuilder.append("     <executionTimeMS>"
 					+ (System.currentTimeMillis() - startTime)
-					+ "</executionTimeMS>");
+					+ "</executionTimeMS>\n");
 			resultBuilder.append("     <isValid type=\"" + pdfType
-					+ "\">false</isValid>");
-			resultBuilder.append("     <epicFail>");
+					+ "\">false</isValid>\n");
+			resultBuilder.append("     <epicFail>\n");
 			resultBuilder.append("          <message>" + e.getMessage()
-					+ "</message>");
+					+ "</message>\n");
 			// TODO catch stack trace here too?
-            resultBuilder.append("          <stackTrace>");
+            resultBuilder.append("          <stackTrace>\n");
             ByteArrayOutputStream stackTrace = new ByteArrayOutputStream();
             e.printStackTrace(new PrintStream(stackTrace));
             //stackTrace.flush();
@@ -74,9 +75,9 @@ public class PDFValidator {
 				}
 			} catch (IOException e1) {
 			}
-         	resultBuilder.append("          </stackTrace>");
-			resultBuilder.append("     </epicFail>");
-			resultBuilder.append("</preflight>");
+         	resultBuilder.append("          </stackTrace>\n");
+			resultBuilder.append("     </epicFail>\n");
+			resultBuilder.append("</preflight>\n");
 		}
 
 		if (result == null) {
@@ -85,13 +86,13 @@ public class PDFValidator {
 
 		if (result.isValid()) {
 			resultBuilder.append("<preflight name=\""
-					+ source.getAbsolutePath() + "\">");
+					+ source.getAbsolutePath() + "\">\n");
 			resultBuilder.append("     <executionTimeMS>"
 					+ (System.currentTimeMillis() - startTime)
-					+ "</executionTimeMS>");
+					+ "</executionTimeMS>\n");
 			resultBuilder.append("     <isValid type=\"" + pdfType
-					+ "\">true</isValid>");
-			resultBuilder.append("</preflight>");
+					+ "\">true</isValid>\n");
+			resultBuilder.append("</preflight>\n");
 			return;
 		} else {
 
@@ -119,24 +120,24 @@ public class PDFValidator {
 			}
 
 			resultBuilder.append("<preflight name=\""
-					+ source.getAbsolutePath() + "\">");
+					+ source.getAbsolutePath() + "\">\n");
 			resultBuilder.append("     <executionTimeMS>"
 					+ (System.currentTimeMillis() - startTime)
-					+ "</executionTimeMS>");
+					+ "</executionTimeMS>\n");
 			resultBuilder.append("     <isValid type=\"" + pdfType
-					+ "\">false</isValid>");
+					+ "\">false</isValid>\n");
 			for (int i = 0; i < errorList.size(); i++) {
 				ValidationError error = errorList.get(i);
 				int count = errorCount.get(i);
-				resultBuilder.append("     <error>");
-				resultBuilder.append("          <count>" + count + "</count>");
+				resultBuilder.append("     <error>\n");
+				resultBuilder.append("          <count>" + count + "</count>\n");
 				resultBuilder.append("          <code>" + error.getErrorCode()
-						+ "</code>");
+						+ "</code>\n");
 				resultBuilder.append("          <details>" + error.getDetails()
-						+ "</details>");
-				resultBuilder.append("     </error>");
+						+ "</details>\n");
+				resultBuilder.append("     </error>\n");
 			}
-			resultBuilder.append("</preflight>");
+			resultBuilder.append("</preflight>\n");
 
 			return;
 		}
