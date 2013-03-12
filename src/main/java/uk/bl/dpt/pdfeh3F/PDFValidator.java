@@ -1,4 +1,4 @@
-package uk.bl.dpt.dpdfdgy;
+package uk.bl.dpt.pdfeh3F;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;

@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>uk.bl.dpt</groupId>
-  <artifactId>dpdfdgy</artifactId>
+  <artifactId>pdfeh3F</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
   <dependency>
@@ -35,7 +35,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>uk.bl.dpt.dpdfdgy.GUI</mainClass>
+							<mainClass>uk.bl.dpt.pdfeh3F.GUI</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -49,7 +49,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>uk.bl.dpt.dpdfdgy.GUI</mainClass>
+							<mainClass>uk.bl.dpt.pdfeh3F.GUI</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

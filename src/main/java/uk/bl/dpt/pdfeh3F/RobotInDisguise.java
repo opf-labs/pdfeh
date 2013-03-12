@@ -1,4 +1,4 @@
-package uk.bl.dpt.dpdfdgy;
+package uk.bl.dpt.pdfeh3F;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -21,7 +21,7 @@ public class RobotInDisguise {
 
 	public RobotInDisguise(String result) {
 		this.result = result;
-		this.xsl = 
+		//this.xsl = 
 	}
 
 	public void transform() {
