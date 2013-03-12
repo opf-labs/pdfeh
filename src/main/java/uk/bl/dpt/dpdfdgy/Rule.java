@@ -24,6 +24,7 @@ public class Rule {
 		setErrorDesc(desc);
 		setFailOn(failOn);
 		setWarnOn(warnOn);
+		setActive(failOn||warnOn);
 	}
 
 	public boolean isFailOn() {
