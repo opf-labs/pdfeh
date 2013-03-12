@@ -23,7 +23,7 @@ public class Rules {
 	
 	private void initDummyRules() {
 		rules.put("2.4.3: Invalid Colour Space", new Rule("2.4.3", "Invalid Colour Space", "", true, true));
-		rules.put("3.1.3: Invalid Font Definition", new Rule("3.1.3", "Invalid Font Definition", "", false, true));
+		rules.put("3.1.3: Invalid Font Definition", new Rule("3.1.3", "Invalid Font Definition", "", false, false));
 		rules.put("7.11: Error on Metadata", new Rule("7.11", "Error On Metadata", "", true, true));
 	}
 }
