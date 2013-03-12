@@ -132,6 +132,10 @@ public class GUI extends Application {
 
 		rulesTab.setContent(rulesVbox);
 
+		// Test
+		RobotInDisguise rib = new RobotInDisguise("test");
+		resultsTextArea.setText(rib.getXsl());
+		
 		// bind to take available space
 		borderPane.prefHeightProperty().bind(scene.heightProperty());
 		borderPane.prefWidthProperty().bind(scene.widthProperty());
