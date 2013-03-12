@@ -1,5 +1,6 @@
 package uk.bl.dpt.pdfeh3F;
 
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -31,8 +32,8 @@ public class Rules {
 	}
 	
 	private void initRules() {
-		String xmlFilename = Rules.class.getClassLoader().getResource("PdfErrorPolicy.xml").getFile();
-		RuleParser ruleParser = new RuleParser(xmlFilename);
+		InputStream xmlInputStream = Rules.class.getClassLoader().getResourceAsStream("PdfErrorPolicy.xml");
+		RuleParser ruleParser = new RuleParser(xmlInputStream);
 		rules = ruleParser.parse();
 		
 	}

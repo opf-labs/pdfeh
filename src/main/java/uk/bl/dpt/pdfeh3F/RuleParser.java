@@ -2,6 +2,7 @@ package uk.bl.dpt.pdfeh3F;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -16,17 +17,27 @@ public class RuleParser {
 	  SAXBuilder builder = new SAXBuilder();
 	  File xmlFile;
 	  String xmlFilename;
+	  InputStream xmlInputStream = null;
 	  
 	  public RuleParser(String filePath) {
 		  this.xmlFilename = filePath;
+	  }
+	  
+	  public RuleParser(InputStream inputStream) {
+		  this.xmlInputStream = inputStream;
 	  }
 	  
 	  public Map<String, Rule> parse() {
 		  
 		  Map<String, Rule> rules = new HashMap<String, Rule>();
 		  try {
-			xmlFile = new File(xmlFilename);
-			Document document = (Document) builder.build(xmlFile);
+			Document document = null;
+			if(xmlInputStream!=null) {
+				document = (Document) builder.build(xmlInputStream);
+			} else {
+				xmlFile = new File(xmlFilename);
+				document = (Document) builder.build(xmlFile);
+			}
 			Element rootNode = document.getRootElement();
 			List list = rootNode.getChildren();
 
