@@ -26,7 +26,7 @@ public class RobotInDisguise {
 	public RobotInDisguise(String result) {
 		this.result = result;
 		try {
-			InputStream is = getClass().getResourceAsStream("pdfBoxPreflightValidator.xsl");
+			InputStream is = RobotInDisguise.class.getClassLoader().getResourceAsStream("pdfBoxPreflightValildator.xsl");
 			StringWriter writer = new StringWriter();
 			IOUtils.copy(is, writer);
 			xsl = writer.toString();			
