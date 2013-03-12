@@ -3,8 +3,8 @@ package uk.bl.dpt.pdfeh3F;
 import java.util.HashMap;
 import java.util.Map;
 
-import uk.bl.dpt.dpdfdgy.RuleParser;
-import uk.bl.dpt.dpdfdgy.Rules;
+import uk.bl.dpt.pdfeh3F.RuleParser;
+import uk.bl.dpt.pdfeh3F.Rules;
 
 public class Rules {
 	

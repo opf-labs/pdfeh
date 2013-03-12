@@ -13,6 +13,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.TextArea;
@@ -122,9 +124,7 @@ public class GUI extends Application {
 
 		for (String ruleKey : rulesMap.keySet()) {
 			CheckBox cb = new CheckBox(ruleKey);
-			cb.setSelected(rulesMap.get(ruleKey).isActive()); // TODO add warnOn
-																// & failOn
-
+			cb.setSelected(rulesMap.get(ruleKey).isActive()); // TODO add warnOn & failOn
 			cb.setOnAction(new EventHandler<ActionEvent>() {
 				public void handle(ActionEvent event) {
 					if (event.getSource() instanceof CheckBox) {
@@ -145,8 +145,11 @@ public class GUI extends Application {
 			});
 			rulesVbox.getChildren().add(cb);
 		}
+		ScrollPane scrollPane = new ScrollPane();
+		scrollPane.setVbarPolicy(ScrollBarPolicy.ALWAYS);
+		scrollPane.setContent(rulesVbox);
 
-		rulesTab.setContent(rulesVbox);
+		rulesTab.setContent(scrollPane);
 		
 		// bind to take available space
 		borderPane.prefHeightProperty().bind(scene.heightProperty());

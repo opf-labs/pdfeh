@@ -37,11 +37,11 @@ public class RuleParser {
 				String name = node.getAttributeValue("name");
 				boolean shouldFail = ("true".equals(node.getAttributeValue("shouldFail")) ? true : false);
 				boolean shouldWarn = ("true".equals(node.getAttributeValue("shouldWarn")) ? true : false);;
-				System.out.println("Node : " + node.getName());
-				System.out.println("Name : " + name);
-				System.out.println("Code : " + code);
-				System.out.println("Should fail : " + shouldFail);
-				System.out.println("Should warn : " + shouldWarn);
+//				System.out.println("Node : " + node.getName());
+//				System.out.println("Name : " + name);
+//				System.out.println("Code : " + code);
+//				System.out.println("Should fail : " + shouldFail);
+//				System.out.println("Should warn : " + shouldWarn);
 				
 				Rule rule = new Rule(code, name, name, shouldFail, shouldWarn);
 				rules.put(rule.getErrorCode() + " " + rule.getErrorLabel(), rule);

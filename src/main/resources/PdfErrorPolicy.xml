@@ -6,7 +6,7 @@
     <!-- If you don't think a PDF file should fail when it reports a particular error code but you still want to know about the error, 
         set shouldFail to "false" and shouldWarn to "true" in the PdfError element for that error code-->
     <!-- Error code for syntax error -->
-    <PdfError name="ERROR_SYNTAX_MAIN" code="1" shouldFail="true" shouldWarn="false"/>
+    <PdfError name="ERROR_SYNTAX_MAIN" code="1" shouldFail="false" shouldWarn="false"/>
     <!--
         error code category which can occur in each pdf part
     -->
@@ -639,7 +639,7 @@ PDF/A Identification Version Identifier Invalid (pdfaid:part)
     <!--
 rdf:about is missing
 -->
-    <PdfError name="ERROR_METADATA_RDF_ABOUT_ATTRIBUTE_MISSING" code="7.0" shouldFail="true"
+    <PdfError name="ERROR_METADATA_RDF_ABOUT_ATTRIBUTE_MISSING" code="7.0" shouldFail="false"
         shouldWarn="false"/>
     <!--
 One of rdf:about attribute embedded in RDF:rdf have a different value than the others
