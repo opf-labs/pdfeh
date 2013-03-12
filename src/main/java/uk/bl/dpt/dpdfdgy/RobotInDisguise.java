@@ -3,6 +3,7 @@ package uk.bl.dpt.dpdfdgy;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
@@ -13,6 +14,8 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
+import org.apache.commons.io.FileUtils;
+
 public class RobotInDisguise {
 
 	private String xsl;
@@ -21,7 +24,12 @@ public class RobotInDisguise {
 
 	public RobotInDisguise(String result) {
 		this.result = result;
-		this.xsl = 
+		try {
+			this.xsl = FileUtils.readFileToString(new File(
+					"resources/pdfBoxPreflightValidator.xsl"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	public void transform() {
@@ -37,7 +45,7 @@ public class RobotInDisguise {
 			transformer.transform(text, new StreamResult(outputStream));
 			robot = outputStream.toString();
 		} catch (TransformerException e) {
-			robot = "Transform failed " + e.getMessage(); 
+			robot = "Transform failed " + e.getMessage();
 		}
 	}
 
