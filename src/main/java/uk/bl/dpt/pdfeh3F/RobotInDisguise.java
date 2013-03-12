@@ -1,6 +1,5 @@
 package uk.bl.dpt.pdfeh3F;
 
-import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -12,6 +11,7 @@ import javax.xml.transform.Source;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.URIResolver;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
@@ -26,10 +26,11 @@ public class RobotInDisguise {
 	public RobotInDisguise(String result) {
 		this.result = result;
 		try {
-			InputStream is = RobotInDisguise.class.getClassLoader().getResourceAsStream("pdfBoxPreflightValildator.xsl");
+			InputStream is = RobotInDisguise.class.getClassLoader()
+					.getResourceAsStream("pdfBoxPreflightValildator.xsl");
 			StringWriter writer = new StringWriter();
 			IOUtils.copy(is, writer);
-			xsl = writer.toString();			
+			xsl = writer.toString();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -44,6 +45,19 @@ public class RobotInDisguise {
 			TransformerFactory factory = TransformerFactory.newInstance();
 			Source xslt = new StreamSource(xslStream);
 			Transformer transformer = factory.newTransformer(xslt);
+			transformer.setURIResolver(new URIResolver() {
+				@Override
+				public Source resolve(String href, String base)
+						throws TransformerException {
+					System.out.println("URIRESOLV: " + href + " " + base);
+					Source src = null;
+					InputStream is = RobotInDisguise.class.getClassLoader()
+							.getResourceAsStream(
+									"PdfErrorPolicy.xml");
+					src = new StreamSource(is);
+					return src;
+				}
+			});
 			Source text = new StreamSource(resStream);
 			transformer.transform(text, new StreamResult(outputStream));
 			robot = outputStream.toString();
@@ -55,8 +69,10 @@ public class RobotInDisguise {
 	public String getResult() {
 		return robot;
 	}
-	
+
 	public String getXsl() {
 		return xsl;
 	}
+	
+	
 }

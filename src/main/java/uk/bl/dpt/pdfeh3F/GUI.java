@@ -131,10 +131,6 @@ public class GUI extends Application {
 		}
 
 		rulesTab.setContent(rulesVbox);
-
-		// Test
-		RobotInDisguise rib = new RobotInDisguise("test");
-		resultsTextArea.setText(rib.getXsl());
 		
 		// bind to take available space
 		borderPane.prefHeightProperty().bind(scene.heightProperty());
@@ -161,7 +157,9 @@ public class GUI extends Application {
 			resultsTextArea.setText("Testing " + current.getName());
 			v.validate();
 			String result = v.getResult();
-			resultsTextArea.setText(result);
+			RobotInDisguise rib = new RobotInDisguise(result);
+			rib.transform();
+			resultsTextArea.setText(rib.getResult());
 		}
 	}
 
