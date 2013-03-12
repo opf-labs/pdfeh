@@ -1,0 +1,654 @@
+<PdfErrors>
+    <!-- If you think a PDF file should fail when it reports a particular error code, set shouldFail to "true" and shouldWarn to false
+         in the PdfError element for that error code -->
+    <!-- If you don't think a PDF file should fail when it reports a particular error code, and you don't want to hear about the error,
+        set shouldFail to "false" and shouldWarn to "false" in the PdfError element for that error code -->
+    <!-- If you don't think a PDF file should fail when it reports a particular error code but you still want to know about the error, 
+        set shouldFail to "false" and shouldWarn to "true" in the PdfError element for that error code-->
+    <!-- Error code for syntax error -->
+    <PdfError name="ERROR_SYNTAX_MAIN" code="1" shouldFail="true" shouldWarn="false"/>
+    <!--
+        error code category which can occur in each pdf part
+    -->
+    <PdfError name="ERROR_SYNTAX_COMMON" code="1.0" shouldFail="true" shouldWarn="false"/>
+    <!--
+         Too many entries in a dictionary object
+    -->
+    <PdfError name="ERROR_SYNTAX_TOO_MANY_ENTRIES" code="1.0.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+        Too many element in an array object
+    -->
+    <PdfError name="ERROR_SYNTAX_ARRAY_TOO_LONG" code="1.0.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+        The name length is too long
+    -->
+    <PdfError name="ERROR_SYNTAX_NAME_TOO_LONG" code="1.0.3" shouldFail="true" shouldWarn="false"/>
+    <!--
+The literal string is too long
+-->
+    <PdfError name="ERROR_SYNTAX_LITERAL_TOO_LONG" code="1.0.4" shouldFail="true" shouldWarn="false"/>
+    <!--
+The hexa string is too long
+-->
+    <PdfError name="ERROR_SYNTAX_HEXA_STRING_TOO_LONG" code="1.0.5" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The number is out of Range ( ex : greatter than 2^31-1)
+-->
+    <PdfError name="ERROR_SYNTAX_NUMERIC_RANGE" code="1.0.6" shouldFail="true" shouldWarn="false"/>
+    <!--
+A dictionary key isn't a name
+-->
+    <PdfError name="ERROR_SYNTAX_DICTIONARY_KEY_INVALID" code="1.0.7" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The language declared doesn't match with the RFC1766
+-->
+    <PdfError name="ERROR_SYNTAX_LANG_NOT_RFC1766" code="1.0.8" shouldFail="true" shouldWarn="false"/>
+    <!--
+There are too many objects
+-->
+    <PdfError name="ERROR_SYNTAX_INDIRECT_OBJ_RANGE" code="1.0.9" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+CID too long
+-->
+    <PdfError name="ERROR_SYNTAX_CID_RANGE" code="1.0.10" shouldFail="true" shouldWarn="false"/>
+    <!--
+Hexa string shall contain even number of non white space char
+-->
+    <PdfError name="ERROR_SYNTAX_HEXA_STRING_EVEN_NUMBER" code="1.0.11" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Hexa string contain non hexadecimal characters
+-->
+    <PdfError name="ERROR_SYNTAX_HEXA_STRING_INVALID" code="1.0.12" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+An object is missing from the document
+-->
+    <PdfError name="ERROR_SYNTAX_MISSING_OFFSET" code="1.0.13" shouldFail="true" shouldWarn="false"/>
+    <!--
+An object has an invalid offset
+-->
+    <PdfError name="ERROR_SYNTAX_INVALID_OFFSET" code="1.0.14" shouldFail="true" shouldWarn="false"/>
+    <PdfError name="ERROR_SYNTAX_HEADER" code="1.1" shouldFail="true" shouldWarn="false"/>
+    <PdfError name="ERROR_SYNTAX_HEADER_FIRST_CHAR" code="1.1.1" shouldFail="true"
+        shouldWarn="false"/>
+    <PdfError name="ERROR_SYNTAX_HEADER_FILE_TYPE" code="1.1.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+Common error about body syntax
+-->
+    <PdfError name="ERROR_SYNTAX_BODY" code="1.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+Error on the object delimiters (obj / endobj)
+-->
+    <PdfError name="ERROR_SYNTAX_OBJ_DELIMITER" code="1.2.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+Error on the stream delimiters (stream / endstream)
+-->
+    <PdfError name="ERROR_SYNTAX_STREAM_DELIMITER" code="1.2.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+Required fields are missing from the dictionary
+-->
+    <PdfError name="ERROR_SYNTAX_DICT_INVALID" code="1.2.3" shouldFail="true" shouldWarn="false"/>
+    <!--
+The length entry is missing from the stream dictionary
+-->
+    <PdfError name="ERROR_SYNTAX_STREAM_LENGTH_MISSING" code="1.2.4" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The length of the stream dictionary and the stream length is inconsistent
+-->
+    <PdfError name="ERROR_SYNTAX_STREAM_LENGTH_INVALID" code="1.2.5" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+F or/and FFilter or/and FDecodeParams are present in a stream dictionary
+-->
+    <PdfError name="ERROR_SYNTAX_STREAM_FX_KEYS" code="1.2.6" shouldFail="true" shouldWarn="false"/>
+    <!--
+The stream uses an invalid filter (The LZW)
+-->
+    <PdfError name="ERROR_SYNTAX_STREAM_INVALID_FILTER" code="1.2.7" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The content stream has some syntax errors
+-->
+    <PdfError name="ERROR_SYNTAX_CONTENT_STREAM_INVALID" code="1.2.8" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+EmbeddedFile entry is present in a FileSpecification dictionary
+-->
+    <PdfError name="ERROR_SYNTAX_EMBEDDED_FILES" code="1.2.9" shouldFail="true" shouldWarn="false"/>
+    <!--
+The content stream uses an unsupported operator
+-->
+    <PdfError name="ERROR_SYNTAX_CONTENT_STREAM_UNSUPPORTED_OP" code="1.2.10" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The content stream contains an invalid argument for the operator
+-->
+    <PdfError name="ERROR_SYNTAX_CONTENT_STREAM_INVALID_ARGUMENT" code="1.2.11" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The stream uses a filter which isn't defined in the PDF Reference document.
+-->
+    <PdfError name="ERROR_SYNTAX_STREAM_UNDEFINED_FILTER" code="1.2.12" shouldFail="true"
+        shouldWarn="false"/>
+    <PdfError name="ERROR_SYNTAX_NOCATALOG" code="1.2.13" shouldFail="true" shouldWarn="false"/>
+    <!--
+Common error about the cross ref table
+-->
+    <PdfError name="ERROR_SYNTAX_CROSS_REF" code="1.3" shouldFail="true" shouldWarn="false"/>
+    <!--
+Common error about the trailer
+-->
+    <PdfError name="ERROR_SYNTAX_TRAILER" code="1.4" shouldFail="true" shouldWarn="false"/>
+    <!--
+ID is missing from the trailer
+-->
+    <PdfError name="ERROR_SYNTAX_TRAILER_MISSING_ID" code="1.4.1" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Encrypt is forbidden
+-->
+    <PdfError name="ERROR_SYNTAX_TRAILER_ENCRYPT" code="1.4.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+An trailer entry has an invalid type
+-->
+    <PdfError name="ERROR_SYNTAX_TRAILER_TYPE_INVALID" code="1.4.3" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Size is missing from the trailer
+-->
+    <PdfError name="ERROR_SYNTAX_TRAILER_MISSING_SIZE" code="1.4.4" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Root is missing from the trailer
+-->
+    <PdfError name="ERROR_SYNTAX_TRAILER_MISSING_ROOT" code="1.4.5" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+ID in 1st trailer and the last is different
+-->
+    <PdfError name="ERROR_SYNTAX_TRAILER_ID_CONSISTENCY" code="1.4.6" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+EmbeddedFile entry is present in the Names dictionary
+-->
+    <PdfError name="ERROR_SYNTAX_TRAILER_CATALOG_EMBEDDEDFILES" code="1.4.7" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Optional content is forbidden
+-->
+    <PdfError name="ERROR_SYNTAX_TRAILER_CATALOG_OCPROPERTIES" code="1.4.8" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Errors in the Outlines dictionary
+-->
+    <PdfError name="ERROR_SYNTAX_TRAILER_OUTLINES_INVALID" code="1.4.9" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Last %%EOF sequence is followed by data
+-->
+<!--
+   GRAPHIC ERRORS 2.x... -->
+<!--
+Main error code for graphical problems
+-->
+    <PdfError name="ERROR_GRAPHIC_MAIN" code="2" shouldFail="true" shouldWarn="false"/>
+    <PdfError name="ERROR_GRAPHIC_INVALID" code="2.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+BBox Entry of a Form XObject is missing or isn't an Array
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_BBOX" code="2.1.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+The OutputIntent dictionary is invalid
+-->
+    <PdfError name="ERROR_GRAPHIC_OUTPUT_INTENT_INVALID_ENTRY" code="2.1.2" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The S entry of the OutputIntent isn't GTS_PDFA1
+-->
+    <PdfError name="ERROR_GRAPHIC_OUTPUT_INTENT_S_VALUE_INVALID" code="2.1.3" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The ICC Profile is invalid
+-->
+    <PdfError name="ERROR_GRAPHIC_OUTPUT_INTENT_ICC_PROFILE_INVALID" code="2.1.4" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+There are more than one ICC Profile
+-->
+    <PdfError name="ERROR_GRAPHIC_OUTPUT_INTENT_ICC_PROFILE_MULTIPLE" code="2.1.5" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Profile version is too recent for PDF 1.4 document
+-->
+    <PdfError name="ERROR_GRAPHIC_OUTPUT_INTENT_ICC_PROFILE_TOO_RECENT" code="2.1.6"
+        shouldFail="true" shouldWarn="false"/>
+    <PdfError name="ERROR_GRAPHIC_MISSING_FIELD" code="2.1.7" shouldFail="true" shouldWarn="false"/>
+    <PdfError name="ERROR_GRAPHIC_TOO_MANY_GRAPHIC_STATES" code="2.1.8" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Main error code for graphical transparency problems
+-->
+    <PdfError name="ERROR_GRAPHIC_TRANSPARENCY" code="2.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+A Group entry with S = Transparency is used or the S = Null
+-->
+    <PdfError name="ERROR_GRAPHIC_TRANSPARENCY_GROUP" code="2.2.1" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+A XObject SMask value isn't None
+-->
+    <PdfError name="ERROR_GRAPHIC_TRANSPARENCY_SMASK" code="2.2.2" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+A XObject has an unexpected key defined
+-->
+    <PdfError name="ERROR_GRAPHIC_UNEXPECTED_KEY" code="2.3" shouldFail="true" shouldWarn="false"/>
+    <!--
+A XObject has an unexpected value for a defined key
+-->
+    <PdfError name="ERROR_GRAPHIC_UNEXPECTED_VALUE_FOR_KEY" code="2.3.2" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+An invalid color space is used
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_COLOR_SPACE" code="2.4" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+RGB color space used in the PDF file but the DestOutputProfile isn't RGB
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_COLOR_SPACE_RGB" code="2.4.1" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+CMYK color space used in the PDF file but the DestOutputProfile isn't CMYK
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_COLOR_SPACE_CMYK" code="2.4.2" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+color space used in the PDF file but the DestOutputProfile is missing
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_COLOR_SPACE_MISSING" code="2.4.3" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Unknown ColorSpace
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_UNKNOWN_COLOR_SPACE" code="2.4.4" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The pattern color space can't be used
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_PATTERN_COLOR_SPACE_FORBIDDEN" code="2.4.5"
+        shouldFail="true" shouldWarn="false"/>
+    <!--
+The pattern is invalid due to missing key or invalid value
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_PATTERN_DEFINITION" code="2.4.6" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+alternate color space used in the PDF file but the DestOutputProfile isn't consistent
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_COLOR_SPACE_ALTERNATE" code="2.4.7" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Base ColorSpace in the Indexed color space is invalid
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_COLOR_SPACE_INDEXED" code="2.4.8" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+ColorSpace is forbidden due to some restriction (ex : Only DeviceXXX are auth in inlined image)
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_COLOR_SPACE_FORBIDDEN" code="2.4.9" shouldFail="true"
+        shouldWarn="false"/>
+    <PdfError name="ERROR_GRAPHIC_INVALID_COLOR_SPACE_TOO_MANY_COMPONENTS_DEVICEN" code="2.4.10"
+        shouldFail="true" shouldWarn="false"/>
+    <!--
+ICC Based color space used in the PDF file is invalid
+-->
+    <PdfError name="ERROR_GRAPHIC_INVALID_COLOR_SPACE_ICCBASED" code="2.4.11" shouldFail="true"
+        shouldWarn="false"/> 
+    <!--FONT ERRORS 3.x... -->
+    <!--
+Main error code for font problems
+-->
+    <PdfError name="ERROR_FONTS_MAIN" code="3" shouldFail="true" shouldWarn="false"/>
+    <PdfError name="ERROR_FONTS_INVALID_DATA" code="3.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+Some mandatory fields are missing from the FONT Dictionary
+-->
+    <PdfError name="ERROR_FONTS_DICTIONARY_INVALID" code="3.1.1" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Some mandatory fields are missing from the FONT Descriptor Dictionary
+-->
+    <PdfError name="ERROR_FONTS_DESCRIPTOR_INVALID" code="3.1.2" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Error on the "Font File x" in the Font Descriptor (ex : FontFile and FontFile2 are present in the same
+dictionary)
+-->
+    <PdfError name="ERROR_FONTS_FONT_FILEX_INVALID" code="3.1.3" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Charset declaration is missing in a Type 1 Subset
+-->
+    <PdfError name="ERROR_FONTS_CHARSET_MISSING_FOR_SUBSET" code="3.1.4" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Encoding is inconsistent with the Font (ex : Symbolic TrueType mustn't declare encoding)
+-->
+    <PdfError name="ERROR_FONTS_ENCODING" code="3.1.5" shouldFail="true" shouldWarn="false"/>
+    <!--
+Width array and Font program Width are inconsistent
+-->
+    <PdfError name="ERROR_FONTS_METRICS" code="3.1.6" shouldFail="true" shouldWarn="false"/>
+    <!--
+Required entry in a Composite Font dictionary is missing
+-->
+    <PdfError name="ERROR_FONTS_CIDKEYED_INVALID" code="3.1.7" shouldFail="true" shouldWarn="false"/>
+    <!--
+The CIDSystemInfo dictionary is invalid
+-->
+    <PdfError name="ERROR_FONTS_CIDKEYED_SYSINFO" code="3.1.8" shouldFail="true" shouldWarn="false"/>
+    <!--
+The CIDToGID is invalid
+-->
+    <PdfError name="ERROR_FONTS_CIDKEYED_CIDTOGID" code="3.1.9" shouldFail="true" shouldWarn="false"/>
+    <!--
+The CMap of the Composite Font is missing or invalid
+-->
+    <PdfError name="ERROR_FONTS_CIDKEYED_CMAP_INVALID_OR_MISSING" code="3.1.10" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The CIDSet entry i mandatory from a subset of composite font
+-->
+    <PdfError name="ERROR_FONTS_CIDSET_MISSING_FOR_SUBSET" code="3.1.11" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The CMap of the Composite Font is missing or invalid
+-->
+    <PdfError name="ERROR_FONTS_ENCODING_ERROR" code="3.1.12" shouldFail="true" shouldWarn="false"/>
+    <!--
+Encoding entry can't be read due to IOException
+-->
+    <PdfError name="ERROR_FONTS_ENCODING_IO" code="3.1.13" shouldFail="true" shouldWarn="false"/>
+    <!--
+The embedded font is damaged
+-->
+    <PdfError name="ERROR_FONTS_DAMAGED" code="3.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+The embedded Type1 font is damaged
+-->
+    <PdfError name="ERROR_FONTS_TYPE1_DAMAGED" code="3.2.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+The embedded TrueType font is damaged
+-->
+    <PdfError name="ERROR_FONTS_TRUETYPE_DAMAGED" code="3.2.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+The embedded composite font is damaged
+-->
+    <PdfError name="ERROR_FONTS_CID_DAMAGED" code="3.2.3" shouldFail="true" shouldWarn="false"/>
+    <!--
+The embedded type 3 font is damaged
+-->
+    <PdfError name="ERROR_FONTS_TYPE3_DAMAGED" code="3.2.4" shouldFail="true" shouldWarn="false"/>
+    <!--
+The embedded CID Map is damaged
+-->
+    <PdfError name="ERROR_FONTS_CID_CMAP_DAMAGED" code="3.2.5" shouldFail="true" shouldWarn="false"/>
+    <!--
+Common error for a Glyph problem
+-->
+    <PdfError name="ERROR_FONTS_GLYPH" code="3.3" shouldFail="true" shouldWarn="false"/>
+    <!--
+a glyph is missing
+-->
+    <PdfError name="ERROR_FONTS_GLYPH_MISSING" code="3.3.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+a glyph is missing
+-->
+    <PdfError name="ERROR_FONTS_UNKNOWN_FONT_REF" code="3.3.2" shouldFail="true" shouldWarn="false"
+    /> 
+    <!--TRANSPARENCY ERRORS 4.x... -->
+    <PdfError name="ERROR_TRANSPARENCY_MAIN" code="4" shouldFail="true" shouldWarn="false"/>
+    <!--
+Common transparency error
+-->
+    <PdfError name="ERROR_TRANSPARENCY_EXT_GRAPHICAL_STATE" code="4.1" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Soft mask entry is present but is forbidden
+-->
+    <PdfError name="ERROR_TRANSPARENCY_EXT_GS_SOFT_MASK" code="4.1.1" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Ca or/and ca entry are present but the value isn't 1.0
+-->
+    <PdfError name="ERROR_TRANSPARENCY_EXT_GS_CA" code="4.1.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+BlendMode value isn't valid (only Normal and Compatible are authorized)
+-->
+    <PdfError name="ERROR_TRANSPARENCY_EXT_GS_BLEND_MODE" code="4.1.3" shouldFail="true"
+        shouldWarn="false"/> 
+    <!--
+    ANNOTATION ERRORS 5.x... -->
+    
+        <PdfError name="ERROR_ANNOT_MAIN" code="5" shouldFail="true" shouldWarn="false"/>
+    <!--
+Common missing field error in annotation dictionary
+-->
+    <PdfError name="ERROR_ANNOT_MISSING_FIELDS" code="5.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+The subtype entry is missing from the annotation dictionary
+-->
+    <PdfError name="ERROR_ANNOT_MISSING_SUBTYPE" code="5.1.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+The AP dictionary of the annotation contains forbidden/invalid entries (only the N entry is authorized)
+-->
+    <PdfError name="ERROR_ANNOT_MISSING_AP_N_CONTENT" code="5.1.2" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Common forbidden field error in annotation dictionary
+-->
+    <PdfError name="ERROR_ANNOT_FORBIDDEN_ELEMENT" code="5.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+This type of annotation is forbidden (ex : Movie)
+-->
+    <PdfError name="ERROR_ANNOT_FORBIDDEN_SUBTYPE" code="5.2.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+The annotation uses a flag which is forbidden.
+-->
+    <PdfError name="ERROR_ANNOT_FORBIDDEN_FLAG" code="5.2.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+Annotation uses a Color profile which isn't the same than the profile contained by the OutputIntent
+-->
+    <PdfError name="ERROR_ANNOT_FORBIDDEN_COLOR" code="5.2.3" shouldFail="true" shouldWarn="false"/>
+    <!--
+Dest entry can't be used if the A element is used too
+-->
+    <PdfError name="ERROR_ANNOT_FORBIDDEN_DEST" code="5.2.4" shouldFail="true" shouldWarn="false"/>
+    <!--
+The AA field is forbidden for the Widget annotation when the PDF is a PDF/A
+-->
+    <PdfError name="ERROR_ANNOT_FORBIDDEN_AA" code="5.2.5" shouldFail="true" shouldWarn="false"/>
+    <!--
+The annotation uses a flag which is not recommended but not forbidden by the ISO 19005-1:2005.
+-->
+    <PdfError name="ERROR_ANNOT_NOT_RECOMMENDED_FLAG" code="5.2.6" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+The AA field is forbidden for the Catalog when the PDF is a PDF/A
+-->
+    <PdfError name="ERROR_ANNOT_CATALOG_FORBIDDEN_AA" code="5.2.7" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Common Invalid field error in annotation dictionary
+-->
+    <PdfError name="ERROR_ANNOT_INVALID_ELEMENT" code="5.3" shouldFail="true" shouldWarn="false"/>
+    <!--
+The AP dictionary of the annotation contains forbidden/invalid entries (only the N entry is authorized)
+-->
+    <PdfError name="ERROR_ANNOT_INVALID_AP_CONTENT" code="5.3.1" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Ca or/and ca entry are present but the value isn't 1.0
+-->
+    <PdfError name="ERROR_ANNOT_INVALID_CA" code="5.3.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+Dest entry of an annotation can't be checked due to an IO Exception
+-->
+    <PdfError name="ERROR_ANNOT_INVALID_DEST" code="5.3.3" shouldFail="true" shouldWarn="false"/> 
+    <!-- ACTION ERRORS 6.x... //-->
+    <PdfError name="ERROR_ACTION_MAIN"
+        code="6" shouldFail="true" shouldWarn="false"/>
+    <!--
+Common invalid action error
+-->
+    <PdfError name="ERROR_ACTION_INVALID_ACTIONS" code="6.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+A mandatory entry in the action dictionary is missing
+-->
+    <PdfError name="ERROR_ACTION_MISING_KEY" code="6.1.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+Some elements of the annotation dictionary have an invalid type (ex : array instead of Dictionary)
+-->
+    <PdfError name="ERROR_ACTION_INVALID_TYPE" code="6.1.3" shouldFail="true" shouldWarn="false"/>
+    <!--
+The H entry of a Hide action is set to true (so some annotation can be hide)
+-->
+    <PdfError name="ERROR_ACTION_HIDE_H_INVALID" code="6.1.4" shouldFail="true" shouldWarn="false"/>
+    <!--
+Common forbidden action error
+-->
+    <PdfError name="ERROR_ACTION_FORBIDDEN_ACTIONS" code="6.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+Named action other than predefined not allowed
+-->
+    <PdfError name="ERROR_ACTION_FORBIDDEN_ACTIONS_NAMED" code="6.2.1" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Additional action entry is forbidden
+-->
+    <PdfError name="ERROR_ACTION_FORBIDDEN_ADDITIONAL_ACTION" code="6.2.2" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Additional action entry is forbidden in a form field object
+-->
+    <PdfError name="ERROR_ACTION_FORBIDDEN_ADDITIONAL_ACTIONS_FIELD" code="6.2.3" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+A widget annotation linked with a form field shall not have any action
+-->
+    <PdfError name="ERROR_ACTION_FORBIDDEN_WIDGET_ACTION_FIELD" code="6.2.4" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+An explicitly forbidden action is used in the PDF file.
+-->
+    <PdfError name="ERROR_ACTION_FORBIDDEN_ACTIONS_EXPLICITLY_FORBIDDEN" code="6.2.5"
+        shouldFail="true" shouldWarn="false"/>
+    <!--
+Actions is rejected if it isn't defined in the PDF Reference Third Edition This is to avoid not consistent file
+due to new features of the PDF format.
+-->
+    <PdfError name="ERROR_ACTION_FORBIDDEN_ACTIONS_UNDEF" code="6.2.6" shouldFail="true"
+        shouldWarn="false"/> 
+    <!-- METADATA ERRORS 7.x... -->
+    <!--
+Main metadata error code
+-->
+    <PdfError name="ERROR_METADATA_MAIN" code="7" shouldFail="true" shouldWarn="false"/>
+    <!--
+Invalid metadata found
+-->
+    <PdfError name="ERROR_METADATA_FORMAT" code="7.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+Unknown metadata
+-->
+    <PdfError name="ERROR_METADATA_PROPERTY_UNKNOWN" code="7.1.1" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Invalid xmp metadata format
+-->
+    <PdfError name="ERROR_METADATA_PROPERTY_FORMAT" code="7.1.2" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Unexpected type of a Metadata entry
+-->
+    <PdfError name="ERROR_METADATA_FORMAT_UNKOWN" code="7.1.3" shouldFail="true" shouldWarn="false"/>
+    <!--
+Invalid metadata, unable to process the font due to IOException
+-->
+    <PdfError name="ERROR_METADATA_FORMAT_STREAM" code="7.1.4" shouldFail="true" shouldWarn="false"/>
+    <!--
+Invalid metadata, unable to process the font due to Invalid XPacket exception
+-->
+    <PdfError name="ERROR_METADATA_FORMAT_XPACKET" code="7.1.5" shouldFail="true" shouldWarn="false"/>
+    <!--
+Metadata mismatch between PDF Dictionnary and xmp
+-->
+    <PdfError name="ERROR_METADATA_MISMATCH" code="7.2" shouldFail="true" shouldWarn="false"/>
+    <!--
+Invalid information in xpacket processing instruction
+-->
+    <PdfError name="ERROR_METADATA_XPACKET_DEPRECATED" code="7.0.0" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Description schema required not embedded
+-->
+    <PdfError name="ERROR_METADATA_ABSENT_DESCRIPTION_SCHEMA" code="7.3" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+A required namespace URI missing
+-->
+    <PdfError name="ERROR_METADATA_NS_URI_MISSING" code="7.4" shouldFail="true" shouldWarn="false"/>
+    <!--
+A namespace URI has an unexpected value
+-->
+    <PdfError name="ERROR_METADATA_WRONG_NS_URI" code="7.4.1" shouldFail="true" shouldWarn="false"/>
+    <!--
+A namespace prefix has an unexpected value
+-->
+    <PdfError name="ERROR_METADATA_WRONG_NS_PREFIX" code="7.4.2" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+Required property is missing
+-->
+    <PdfError name="ERROR_METADATA_PROPERTY_MISSING" code="7.5" shouldFail="true" shouldWarn="false"/>
+    <!--
+A valueType is used but is not declared
+-->
+    <PdfError name="ERROR_METADATA_UNKNOWN_VALUETYPE" code="7.6" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+PDF/A Identification Schema not found
+-->
+    <PdfError name="ERROR_METADATA_PDFA_ID_MISSING" code="7.11" shouldFail="true" shouldWarn="false"/>
+    <!--
+PDF/A Identification Conformance Invalid
+-->
+    <PdfError name="ERROR_METADATA_INVALID_PDFA_CONFORMANCE" code="7.11.1" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+PDF/A Identification Version Identifier Invalid (pdfaid:part)
+-->
+    <PdfError name="ERROR_METADATA_INVALID_PDFA_VERSION_ID" code="7.11.2" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+rdf:about is missing
+-->
+    <PdfError name="ERROR_METADATA_RDF_ABOUT_ATTRIBUTE_MISSING" code="7.0" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+One of rdf:about attribute embedded in RDF:rdf have a different value than the others
+-->
+    <PdfError name="ERROR_METADATA_RDF_ABOUT_ATTRIBUTE_INEQUAL_VALUE" code="7.0.1" shouldFail="true"
+        shouldWarn="false"/>
+    <!--
+a category has an invalid value in one property description (must be internal or external)
+-->
+    <PdfError name="ERROR_METADATA_CATEGORY_PROPERTY_INVALID" code="7.5.1" shouldFail="true"
+        shouldWarn="false"/>
+</PdfErrors>
