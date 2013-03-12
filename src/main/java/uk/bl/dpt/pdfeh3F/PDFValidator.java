@@ -122,7 +122,7 @@ public class PDFValidator {
 					+ source.getAbsolutePath() + "\">\n");
 			resultBuilder.append("     <executionTimeMS>"
 					+ (System.currentTimeMillis() - startTime)
-					+ "</executionTimeMS>");
+					+ "</executionTimeMS>\n");
 			resultBuilder.append("     <isValid type=\"" + pdfType
 					+ "\">false</isValid>\n");
 			for (int i = 0; i < errorList.size(); i++) {
