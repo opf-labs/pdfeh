@@ -28,10 +28,12 @@ public class GUI extends Application {
 
 	protected TabPane tabs = null;
 	protected Tab resultsTab = null;
+	protected Tab resultsXMLTab = null;
 	protected Tab rulesTab = null;
 	protected Rules rules;
 	protected TextField dirTextField;
 	protected TextArea resultsTextArea;
+	protected TextArea resultsXMLTextArea;
 	protected File pdfDir;
 	protected Map<String, Rule> rulesMap;
 
@@ -77,6 +79,7 @@ public class GUI extends Application {
 		Button buttonValidate = new Button("Validate");
 		buttonValidate.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent arg0) {
+				clearTextFields();
 				if (pdfDir != null && pdfDir.exists()) {
 					validatePDFs(pdfDir);
 				}
@@ -92,6 +95,19 @@ public class GUI extends Application {
 
 		resultsTab.setContent(resultsVbox);
 
+		/*
+		 * Results XML Tab
+		 */
+		resultsXMLTab = new Tab();
+		resultsXMLTab.setText("Raw Results");
+		resultsXMLTab.setClosable(false);
+		tabs.getTabs().add(resultsXMLTab);
+		VBox resultsXMLVbox = new VBox(8);
+		resultsXMLTextArea = new TextArea();
+		resultsXMLTextArea.setMinSize(400, 400);
+		resultsXMLVbox.getChildren().add(resultsXMLTextArea);
+		resultsXMLTab.setContent(resultsXMLVbox);
+		
 		/*
 		 * Rules Tab
 		 */
@@ -142,6 +158,12 @@ public class GUI extends Application {
 		stage.show();
 	}
 
+	protected void clearTextFields() {
+		resultsTextArea.setText("");
+		resultsXMLTextArea.setText("");
+		
+	}
+
 	protected void validatePDFs(File pdfDir) {
 		walkTreeAndValidate(pdfDir);
 	}
@@ -153,13 +175,25 @@ public class GUI extends Application {
 				walkTreeAndValidate(f);
 			}
 		} else { // is a file presumably!
+			
 			PDFValidator v = new PDFValidator(current);
-			resultsTextArea.setText("Testing " + current.getName());
+			
+			String ctext = resultsTextArea.getText();
+
+			resultsTextArea.setText(ctext + "\nTesting " + current.getName());
 			v.validate();
+			if ( v.isValid() ) {
+				ctext = resultsTextArea.getText();				
+				resultsTextArea.setText( ctext + " - no risks found\n");
+			} else {
+				ctext = resultsTextArea.getText();				
+				resultsTextArea.setText( ctext + " - RISKS FOUND!\n");
+			}
 			String result = v.getResult();
 			RobotInDisguise rib = new RobotInDisguise(result);
 			rib.transform();
-			resultsTextArea.setText(rib.getResult());
+			String currentText = resultsXMLTextArea.getText();
+			resultsXMLTextArea.setText(currentText + "\n==========\n\n" + rib.getResult());
 		}
 	}
 

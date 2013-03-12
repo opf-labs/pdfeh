@@ -22,11 +22,12 @@ public class PDFValidator {
 	
 	File source;
 	StringBuilder resultBuilder;
+	boolean valid = false;
 
 	public PDFValidator(File source) {
 		this.source = source;
 		resultBuilder = new StringBuilder();
-		resultBuilder.append("<?xml version=\"1.0\" ?>");
+		resultBuilder.append("<?xml version=\"1.0\" ?>\n");
 	}
 
 	public String getResult() {
@@ -93,6 +94,7 @@ public class PDFValidator {
 			resultBuilder.append("     <isValid type=\"" + pdfType
 					+ "\">true</isValid>\n");
 			resultBuilder.append("</preflight>\n");
+			valid = true;
 			return;
 		} else {
 
@@ -141,5 +143,9 @@ public class PDFValidator {
 
 			return;
 		}
+	}
+	
+	public boolean isValid() {
+		return valid;
 	}
 }

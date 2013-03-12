@@ -49,7 +49,6 @@ public class RobotInDisguise {
 				@Override
 				public Source resolve(String href, String base)
 						throws TransformerException {
-					System.out.println("URIRESOLV: " + href + " " + base);
 					Source src = null;
 					InputStream is = RobotInDisguise.class.getClassLoader()
 							.getResourceAsStream(
