@@ -1,0 +1,19 @@
+<preflight name="062099.pdf">
+     <executionTimeMS>131</executionTimeMS>
+     <isValid type="null">false</isValid>
+     <error>
+          <count>1</count>
+          <code>1.1</code>
+          <details>Body Syntax error, First line must match %PDF-1.\d</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>1.1</code>
+          <details>Body Syntax error, Second line must contains at least 4 bytes greater than 127</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>1.0</code>
+          <details>Syntax error, Missing end of file marker '%%EOF'</details>
+     </error>
+</preflight>

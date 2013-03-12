@@ -1,0 +1,14 @@
+<preflight name="encryption_nocopy.pdf">
+     <executionTimeMS>2160</executionTimeMS>
+     <isValid type="PDF/A1-b">false</isValid>
+     <error>
+          <count>1</count>
+          <code>1.4.2</code>
+          <details>Trailer Syntax error, The trailer dictionary contains Encrypt</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>7.1.1</code>
+          <details>Error on MetaData, No type defined for {http://ns.adobe.com/xap/1.0/mm/}subject</details>
+     </error>
+</preflight>

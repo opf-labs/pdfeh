@@ -1,0 +1,14 @@
+<preflight name="text_only_fontsNotEmbedded.pdf">
+     <executionTimeMS>1444</executionTimeMS>
+     <isValid type="PDF/A1-b">false</isValid>
+     <error>
+          <count>1</count>
+          <code>3.1.3</code>
+          <details>Invalid Font definition, FontFile entry is missing from FontDescriptor for TimesNewRomanPSMT</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>7.1.1</code>
+          <details>Error on MetaData, No type defined for {http://ns.adobe.com/xap/1.0/mm/}subject</details>
+     </error>
+</preflight>

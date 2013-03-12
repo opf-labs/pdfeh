@@ -1,0 +1,24 @@
+<preflight name="lorem-ipsum-plus-image-updated.pdf">
+     <executionTimeMS>1810</executionTimeMS>
+     <isValid type="PDF/A1-b">false</isValid>
+     <error>
+          <count>1</count>
+          <code>2.2.2</code>
+          <details>Invalid Graphis transparency, Soft Mask must be null or None</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>2.3.2</code>
+          <details>Unexpected key in Graphic object definition, Unexpected 'true' value for 'Interpolate' Key</details>
+     </error>
+     <error>
+          <count>2</count>
+          <code>5.1</code>
+          <details>Missing field in an annotation definition</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>7.1</code>
+          <details>Error on MetaData, Missing Metadata Key in catalog</details>
+     </error>
+</preflight>

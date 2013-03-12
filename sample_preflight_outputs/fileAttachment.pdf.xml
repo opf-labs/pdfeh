@@ -1,0 +1,19 @@
+<preflight name="fileAttachment.pdf">
+     <executionTimeMS>1489</executionTimeMS>
+     <isValid type="PDF/A1-b">false</isValid>
+     <error>
+          <count>1</count>
+          <code>1.2.9</code>
+          <details>Body Syntax error, EmbeddedFile entry is present in a FileSpecification dictionary</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>1.4.7</code>
+          <details>Trailer Syntax error, EmbeddedFile entry is present in the Names dictionary</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>7.1.1</code>
+          <details>Error on MetaData, No type defined for {http://ns.adobe.com/xap/1.0/mm/}subject</details>
+     </error>
+</preflight>

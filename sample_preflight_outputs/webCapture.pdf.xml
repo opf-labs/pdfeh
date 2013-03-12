@@ -1,0 +1,74 @@
+<preflight name="webCapture.pdf">
+     <executionTimeMS>2008</executionTimeMS>
+     <isValid type="PDF/A1-b">false</isValid>
+     <error>
+          <count>10</count>
+          <code>2.4.3</code>
+          <details>Invalid Color space, The operator "g" can't be used without Color Profile</details>
+     </error>
+     <error>
+          <count>6</count>
+          <code>2.4.3</code>
+          <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+     </error>
+     <error>
+          <count>4</count>
+          <code>2.4.3</code>
+          <details>Invalid Color space, The operator "G" can't be used without Color Profile</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>3.1.1</code>
+          <details>Invalid Font definition, Some required fields are missing from the Font dictionary.</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>3.1.2</code>
+          <details>Invalid Font definition, FontDescriptor is null or is a AFM Descriptor</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>6.2.4</code>
+          <details>Action is forbidden, "A" must not be used in a Field dictionary</details>
+     </error>
+     <error>
+          <count>109</count>
+          <code>5.1</code>
+          <details>Missing field in an annotation definition</details>
+     </error>
+     <error>
+          <count>46</count>
+          <code>2.2.2</code>
+          <details>Invalid Graphis transparency, Soft Mask must be null or None</details>
+     </error>
+     <error>
+          <count>2</count>
+          <code>2.2.1</code>
+          <details>Invalid Graphis transparency, Group has a transparency S entry or the S entry is null.</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>3.1.3</code>
+          <details>Invalid Font definition, FontFile entry is missing from FontDescriptor for Tahoma</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>3.1.3</code>
+          <details>Invalid Font definition, FontFile entry is missing from FontDescriptor for Arial</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>3.1.3</code>
+          <details>Invalid Font definition, FontFile entry is missing from FontDescriptor for Arial,Bold</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>1.4.6</code>
+          <details>Trailer Syntax error, ID is different in the first and the last trailer</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>7.1.1</code>
+          <details>Error on MetaData, No type defined for {http://ns.adobe.com/xap/1.0/mm/}subject</details>
+     </error>
+</preflight>

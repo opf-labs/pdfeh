@@ -1,0 +1,14 @@
+<preflight name="externalLink.pdf">
+     <executionTimeMS>1743</executionTimeMS>
+     <isValid type="PDF/A1-b">false</isValid>
+     <error>
+          <count>1</count>
+          <code>6.2.5</code>
+          <details>Action is forbidden, The action Launch is forbidden</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>7.1.1</code>
+          <details>Error on MetaData, No type defined for {http://ns.adobe.com/xap/1.0/mm/}subject</details>
+     </error>
+</preflight>

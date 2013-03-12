@@ -1,0 +1,29 @@
+<preflight name="simple-annotated-in-adobe-x.pdf">
+     <executionTimeMS>1423</executionTimeMS>
+     <isValid type="PDF/A1-b">false</isValid>
+     <error>
+          <count>1</count>
+          <code>5.2.3</code>
+          <details>Forbidden field in an annotation definition, Annotation uses a Color profile which isn't the same than the profile contained by the OutputIntent</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>5.1</code>
+          <details>Missing field in an annotation definition</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>2.2.1</code>
+          <details>Invalid Graphis transparency, Group has a transparency S entry or the S entry is null.</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>2.4.1</code>
+          <details>Invalid Color space, The operator "rg" can't be used with CMYK Profile</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>7.11</code>
+          <details>Error on MetaData</details>
+     </error>
+</preflight>

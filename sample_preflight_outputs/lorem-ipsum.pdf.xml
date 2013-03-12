@@ -1,0 +1,19 @@
+<preflight name="lorem-ipsum.pdf">
+     <executionTimeMS>173</executionTimeMS>
+     <isValid type="null">false</isValid>
+     <error>
+          <count>1</count>
+          <code>1.2.1</code>
+          <details>Body Syntax error, Single space expected</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>1.2.1</code>
+          <details>Body Syntax error, Expected pattern 'obj but missed at character 'o'</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>1.0</code>
+          <details>Syntax error, Expected pattern 'obj but missed at character 'o'</details>
+     </error>
+</preflight>

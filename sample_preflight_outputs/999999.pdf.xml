@@ -1,0 +1,34 @@
+<preflight name="999999.pdf">
+     <executionTimeMS>1283</executionTimeMS>
+     <isValid type="PDF/A1-b">false</isValid>
+     <error>
+          <count>1</count>
+          <code>1.1</code>
+          <details>Body Syntax error, First line must match %PDF-1.\d</details>
+     </error>
+     <error>
+          <count>3</count>
+          <code>2.4.1</code>
+          <details>Invalid Color space, The operator "rg" can't be used with CMYK Profile</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>3.1.3</code>
+          <details>Invalid Font definition, FontFile entry is missing from FontDescriptor for TimesNewRoman,Bold</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>3.1.3</code>
+          <details>Invalid Font definition, FontFile entry is missing from FontDescriptor for TimesNewRoman</details>
+     </error>
+     <error>
+          <count>10</count>
+          <code>2.4.3</code>
+          <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+     </error>
+     <error>
+          <count>1</count>
+          <code>7.1</code>
+          <details>Error on MetaData, Missing Metadata Key in catalog</details>
+     </error>
+</preflight>

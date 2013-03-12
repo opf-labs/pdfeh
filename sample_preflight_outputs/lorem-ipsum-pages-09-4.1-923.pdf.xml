@@ -1,0 +1,9 @@
+<preflight name="lorem-ipsum-pages-09-4.1-923.pdf">
+     <executionTimeMS>1576</executionTimeMS>
+     <isValid type="PDF/A1-b">false</isValid>
+     <error>
+          <count>1</count>
+          <code>7.1</code>
+          <details>Error on MetaData, Missing Metadata Key in catalog</details>
+     </error>
+</preflight>
