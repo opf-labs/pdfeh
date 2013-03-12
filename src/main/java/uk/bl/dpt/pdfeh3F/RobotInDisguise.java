@@ -1,11 +1,12 @@
 package uk.bl.dpt.pdfeh3F;
 
+import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.StringWriter;
 
 import javax.xml.transform.Source;
 import javax.xml.transform.Transformer;
@@ -14,7 +15,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
 
 public class RobotInDisguise {
 
@@ -25,8 +26,10 @@ public class RobotInDisguise {
 	public RobotInDisguise(String result) {
 		this.result = result;
 		try {
-			this.xsl = FileUtils.readFileToString(new File(
-					"resources/pdfBoxPreflightValidator.xsl"));
+			InputStream is = getClass().getResourceAsStream("pdfBoxPreflightValidator.xsl");
+			StringWriter writer = new StringWriter();
+			IOUtils.copy(is, writer);
+			xsl = writer.toString();			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -51,5 +54,9 @@ public class RobotInDisguise {
 
 	public String getResult() {
 		return robot;
+	}
+	
+	public String getXsl() {
+		return xsl;
 	}
 }
