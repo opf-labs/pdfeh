@@ -1,6 +1,12 @@
 package uk.bl.dpt.dpdfdgy;
 
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +19,7 @@ import org.apache.pdfbox.preflight.exception.SyntaxValidationException;
 import org.apache.pdfbox.preflight.parser.PreflightParser;
 
 public class PDFValidator {
+	
 	File source;
 	StringBuilder resultBuilder;
 
@@ -52,11 +59,23 @@ public class PDFValidator {
 					+ "</executionTimeMS>");
 			resultBuilder.append("     <isValid type=\"" + pdfType
 					+ "\">false</isValid>");
-			resultBuilder.append("     <exceptionThrown>");
+			resultBuilder.append("     <epicFail>");
 			resultBuilder.append("          <message>" + e.getMessage()
 					+ "</message>");
 			// TODO catch stack trace here too?
-			resultBuilder.append("     </exceptionThrown>");
+            resultBuilder.append("          <stackTrace>");
+            ByteArrayOutputStream stackTrace = new ByteArrayOutputStream();
+            e.printStackTrace(new PrintStream(stackTrace));
+            //stackTrace.flush();
+            BufferedReader trace = new BufferedReader(new InputStreamReader(new ByteArrayInputStream(stackTrace.toByteArray()))); 
+            try {
+				while(trace.ready()) {
+					resultBuilder.append(trace.readLine()+"\n");
+				}
+			} catch (IOException e1) {
+			}
+         	resultBuilder.append("          </stackTrace>");
+			resultBuilder.append("     </epicFail>");
 			resultBuilder.append("</preflight>");
 		}
 
