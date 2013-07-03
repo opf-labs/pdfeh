@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="stokeont2-124249_1.pdf">
+  <executionTimeMS>4154</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="25">
+    <error count="25">
+      <code>3.1.10</code>
+      <details>Invalid Font definition, CMapName or WMode is inconsistent</details>
+    </error>
+  </errors>
+</preflight>

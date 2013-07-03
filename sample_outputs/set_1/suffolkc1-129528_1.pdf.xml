@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="suffolkc1-129528_1.pdf">
+  <executionTimeMS>9997</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="11972">
+    <error count="4731">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f*" can't be used without Color Profile</details>
+    </error>
+    <error count="360">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "G" can't be used without Color Profile</details>
+    </error>
+    <error count="127">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "B" can't be used without Color Profile</details>
+    </error>
+    <error count="631">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+    </error>
+    <error count="176">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "g" can't be used without Color Profile</details>
+    </error>
+    <error count="15">
+      <code>2.4.3</code>
+      <details>Invalid Color space, DestOutputProfile is missing</details>
+    </error>
+    <error count="5077">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "RG" can't be used with CMYK Profile</details>
+    </error>
+    <error count="816">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "rg" can't be used with CMYK Profile</details>
+    </error>
+    <error count="7">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "120" in the font program "CGKPBB+SymbolMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="4">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "120" in the font program "IACLGO+SymbolMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="1">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "164" in the font program "IACLGO+SymbolMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="1">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "13" in the font program "IACLEO+MapInfoArrows"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="1">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "164" in the font program "DIMMNN+SymbolMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="4">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "6" in the font program "DIMHBN+MapInfoSymbols"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="3">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "12" in the font program "DIMHBN+MapInfoSymbols"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="18">
+      <code>3.1.10</code>
+      <details>Invalid Font definition, CMapName or WMode is inconsistent</details>
+    </error>
+  </errors>
+</preflight>

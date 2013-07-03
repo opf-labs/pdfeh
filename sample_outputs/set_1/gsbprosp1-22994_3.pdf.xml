@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="gsbprosp1-22994_3.pdf">
+  <executionTimeMS>1811</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="5856">
+    <error count="5827">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f*" can't be used without Color Profile</details>
+    </error>
+    <error count="12">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "rg" can't be used with CMYK Profile</details>
+    </error>
+    <error count="17">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "RG" can't be used with CMYK Profile</details>
+    </error>
+  </errors>
+</preflight>

@@ -6,4 +6,4 @@ This directory contains a number of PDF/A files that have been kindly donated fo
 Creation
 --------
 
-The original files contain a number of archeology reports mostly received as a variety PDF formats that are then converted to PDF/A using pdftron.
+The original files contain a number of archeology reports received as a variety PDF formats that are then converted to PDF/A using pdftron.
