@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="suffolkc1-129939_1.pdf">
+  <executionTimeMS>10278</executionTimeMS>
+  <isValid type="">false</isValid>
+  <exceptionThrown>
+    <message/>
+    <stackTrace>java.util.NoSuchElementException
+	at java.util.HashMap$HashIterator.nextEntry(HashMap.java:897)
+	at java.util.HashMap$KeyIterator.next(HashMap.java:928)
+	at java.util.Collections.max(Collections.java:698)
+	at org.apache.fontbox.ttf.CMAPEncodingEntry.processSubtype4(CMAPEncodingEntry.java:385)
+	at org.apache.fontbox.ttf.CMAPEncodingEntry.initSubtable(CMAPEncodingEntry.java:88)
+	at org.apache.fontbox.ttf.CMAPTable.initData(CMAPTable.java:90)
+	at org.apache.fontbox.ttf.AbstractTTFParser.parseTables(AbstractTTFParser.java:163)
+	at org.apache.fontbox.ttf.TTFParser.parseTables(TTFParser.java:61)
+	at org.apache.fontbox.ttf.AbstractTTFParser.parseTTF(AbstractTTFParser.java:90)
+	at org.apache.fontbox.ttf.TTFParser.parseTTF(TTFParser.java:26)
+	at org.apache.fontbox.ttf.AbstractTTFParser.parseTTF(AbstractTTFParser.java:66)
+	at org.apache.fontbox.ttf.TTFParser.parseTTF(TTFParser.java:26)
+	at org.apache.pdfbox.preflight.font.descriptor.TrueTypeDescriptorHelper.processFontFile(TrueTypeDescriptorHelper.java:84)
+	at org.apache.pdfbox.preflight.font.descriptor.FontDescriptorHelper.validate(FontDescriptorHelper.java:97)
+	at org.apache.pdfbox.preflight.font.SimpleFontValidator.processFontDescriptorValidation(SimpleFontValidator.java:82)
+	at org.apache.pdfbox.preflight.font.SimpleFontValidator.validate(SimpleFontValidator.java:55)
+	at org.apache.pdfbox.preflight.process.reflect.FontValidationProcess.validate(FontValidationProcess.java:69)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(ContextHelper.java:73)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(ContextHelper.java:52)
+	at org.apache.pdfbox.preflight.process.reflect.ResourcesValidationProcess.validateFonts(ResourcesValidationProcess.java:96)
+	at org.apache.pdfbox.preflight.process.reflect.ResourcesValidationProcess.validate(ResourcesValidationProcess.java:74)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(ContextHelper.java:73)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(ContextHelper.java:52)
+	at org.apache.pdfbox.preflight.process.reflect.SinglePageValidationProcess.validateResources(SinglePageValidationProcess.java:163)
+	at org.apache.pdfbox.preflight.process.reflect.SinglePageValidationProcess.validate(SinglePageValidationProcess.java:82)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(ContextHelper.java:73)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(ContextHelper.java:52)
+	at org.apache.pdfbox.preflight.process.PageTreeValidationProcess.validatePage(PageTreeValidationProcess.java:58)
+	at org.apache.pdfbox.preflight.process.PageTreeValidationProcess.validate(PageTreeValidationProcess.java:47)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(ContextHelper.java:73)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(ContextHelper.java:88)
+	at org.apache.pdfbox.preflight.PreflightDocument.validate(PreflightDocument.java:168)
+	at org.apache.pdfbox.preflight.parser.XmlResultParser.validate(XmlResultParser.java:68)
+	at org.apache.pdfbox.preflight.parser.XmlResultParser.validate(XmlResultParser.java:49)
+	at org.apache.pdfbox.preflight.Validator_A1b.main(Validator_A1b.java:129)
+</stackTrace>
+  </exceptionThrown>
+</preflight>

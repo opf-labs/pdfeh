@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="headland1-96971_1.pdf">
+  <executionTimeMS>8692</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="57">
+    <error count="57">
+      <code>1.2.5</code>
+      <details>Body Syntax error, Stream length is invalide</details>
+    </error>
+  </errors>
+</preflight>

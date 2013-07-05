@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="aocarcha1-114644_1.pdf">
+  <executionTimeMS>11207</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="9">
+    <error count="9">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "115" in the font program "AGAOCK+GillSansMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

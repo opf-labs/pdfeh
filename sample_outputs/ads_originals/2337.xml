@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="heritage1-54789_1.pdf">
+  <executionTimeMS>6187</executionTimeMS>
+  <isValid type="">false</isValid>
+  <exceptionThrown>
+    <message/>
+    <stackTrace>java.lang.NullPointerException
+	at org.apache.xmpbox.xml.DomXmpParser.parseDescriptionRoot(DomXmpParser.java:234)
+	at org.apache.xmpbox.xml.DomXmpParser.parse(DomXmpParser.java:197)
+	at org.apache.xmpbox.xml.DomXmpParser.parse(DomXmpParser.java:106)
+	at org.apache.pdfbox.preflight.process.MetadataValidationProcess.validate(MetadataValidationProcess.java:66)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(ContextHelper.java:73)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(ContextHelper.java:88)
+	at org.apache.pdfbox.preflight.PreflightDocument.validate(PreflightDocument.java:168)
+	at org.apache.pdfbox.preflight.parser.XmlResultParser.validate(XmlResultParser.java:68)
+	at org.apache.pdfbox.preflight.parser.XmlResultParser.validate(XmlResultParser.java:49)
+	at org.apache.pdfbox.preflight.Validator_A1b.main(Validator_A1b.java:129)
+</stackTrace>
+  </exceptionThrown>
+</preflight>

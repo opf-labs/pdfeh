@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="mollerar1-141500_1.pdf">
+  <executionTimeMS>20823</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="9491">
+    <error count="4">
+      <code>1.2.10</code>
+      <details>Body Syntax error, The operator "EX" isn't supported.</details>
+    </error>
+    <error count="4">
+      <code>1.2.10</code>
+      <details>Body Syntax error, The operator "BX" isn't supported.</details>
+    </error>
+    <error count="1">
+      <code>7.1</code>
+      <details>Error on MetaData, Type 'originalDocumentID' not defined in http://ns.adobe.com/xap/1.0/sType/ResourceRef#</details>
+    </error>
+    <error count="24">
+      <code>2.4.2</code>
+      <details>Invalid Color space, The operator "K" can't be used with RGB Profile</details>
+    </error>
+    <error count="29">
+      <code>2.4.2</code>
+      <details>Invalid Color space, The operator "k" can't be used with RGB Profile</details>
+    </error>
+    <error count="4">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "g" can't be used without Color Profile</details>
+    </error>
+    <error count="16">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "B" can't be used without Color Profile</details>
+    </error>
+    <error count="3931">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+    </error>
+    <error count="4768">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f*" can't be used without Color Profile</details>
+    </error>
+    <error count="139">
+      <code>2.4.3</code>
+      <details>Invalid Color space, DestOutputProfile is missing</details>
+    </error>
+    <error count="96">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "RG" can't be used with CMYK Profile</details>
+    </error>
+    <error count="360">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "rg" can't be used with CMYK Profile</details>
+    </error>
+    <error count="31">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "104" in the font program "SBOGDO+MyriadPro-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="84">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "110" in the font program "SBOGDO+MyriadPro-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

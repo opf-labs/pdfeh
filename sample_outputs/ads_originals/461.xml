@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="thamesva1-128462_1.pdf">
+  <executionTimeMS>16651</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="6451">
+    <error count="13">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="59">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR32E.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="118">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR32C.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="114">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR32A.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="226">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR328.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="4853">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="307">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="14">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR325.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="44">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="595">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="108">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

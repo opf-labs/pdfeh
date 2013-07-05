@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="addymana1-113706_3.pdf">
+  <executionTimeMS>5909</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="81">
+    <error count="1">
+      <code>7.1</code>
+      <details>Error on MetaData, Expecting namespace 'adobe:ns:meta/' and found 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'</details>
+    </error>
+    <error count="21">
+      <code>2.3.2</code>
+      <details>Unexpected key in Graphic object definition, TR2 key only expect 'default' value, not 'Default'</details>
+    </error>
+    <error count="59">
+      <code>1.2.5</code>
+      <details>Body Syntax error, Stream length is invalide</details>
+    </error>
+  </errors>
+</preflight>

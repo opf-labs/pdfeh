@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="archaeol7-61204_1.pdf">
+  <executionTimeMS>12630</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="3957">
+    <error count="4">
+      <code>2.3.2</code>
+      <details>Unexpected key in Graphic object definition, TR2 key only expect 'default' value, not 'Default'</details>
+    </error>
+    <error count="7">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "57" in the font program "LIINGI+Wingdings-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="4">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "120" in the font program "LIINCJ+SymbolMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="8">
+      <code>3.1.10</code>
+      <details>Invalid Font definition, CMapName or WMode is inconsistent</details>
+    </error>
+    <error count="1">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "G" can't be used without Color Profile</details>
+    </error>
+    <error count="3757">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+    </error>
+    <error count="176">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "g" can't be used without Color Profile</details>
+    </error>
+  </errors>
+</preflight>

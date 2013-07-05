@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="headland1-104314_3.pdf">
+  <executionTimeMS>3251</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="36">
+    <error count="3">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "104" in the font program "CMFIFM+MyriadPro-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="11">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "110" in the font program "CMFIFM+MyriadPro-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="1">
+      <code>7.11</code>
+      <details>Error on MetaData</details>
+    </error>
+    <error count="1">
+      <code>1.4.6</code>
+      <details>Trailer Syntax error, ID is different in the first and the last trailer</details>
+    </error>
+    <error count="20">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+    </error>
+  </errors>
+</preflight>

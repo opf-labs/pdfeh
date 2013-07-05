@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="thamesva1-127132_1.pdf">
+  <executionTimeMS>16437</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="6859">
+    <error count="14">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="76">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR2D8.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="115">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR2D6.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="466">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="4519">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR2D4.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="418">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR2D2.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="18">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR2CF.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="51">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR2CD.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="409">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR2CA.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="684">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="89">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

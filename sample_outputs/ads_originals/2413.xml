@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="headland1-112551_1.pdf">
+  <executionTimeMS>12848</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="168">
+    <error count="10">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "104" in the font program "IGFNMN+MyriadPro-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="18">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "110" in the font program "IGFNMN+MyriadPro-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="140">
+      <code>1.2.5</code>
+      <details>Body Syntax error, Stream length is invalide</details>
+    </error>
+  </errors>
+</preflight>

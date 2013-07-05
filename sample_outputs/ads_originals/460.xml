@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="thamesva1-127140_1.pdf">
+  <executionTimeMS>14164</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="9960">
+    <error count="17">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="77">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR170.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="75">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR16E.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="77">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR16C.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="167">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR16A.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="77">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR168.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="104">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR165.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="7826">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="516">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="14">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR162.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="49">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR160.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="872">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="89">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

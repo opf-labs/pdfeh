@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="gsbprosp1-22994_2.pdf">
+  <executionTimeMS>1495</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="20">
+    <error count="1">
+      <code>2.3.2</code>
+      <details>Unexpected key in Graphic object definition, The ColorSpace is unknown</details>
+    </error>
+    <error count="16">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f*" can't be used without Color Profile</details>
+    </error>
+    <error count="1">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "rg" can't be used with CMYK Profile</details>
+    </error>
+    <error count="2">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "RG" can't be used with CMYK Profile</details>
+    </error>
+  </errors>
+</preflight>

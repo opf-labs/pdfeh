@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="headland3-143899_1.pdf">
+  <executionTimeMS>13431</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="129">
+    <error count="70">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "115" in the font program "IHCKJF+MyriadPro-LightCond"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="59">
+      <code>1.2.5</code>
+      <details>Body Syntax error, Stream length is invalide</details>
+    </error>
+  </errors>
+</preflight>

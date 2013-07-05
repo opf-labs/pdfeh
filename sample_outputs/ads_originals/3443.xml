@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="archaeol7-141322_1.pdf">
+  <executionTimeMS>7143</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="3">
+    <error count="3">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "33056" in the font program "JFJAJI+ArialMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

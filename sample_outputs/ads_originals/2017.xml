@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="molas1-7479_1.pdf">
+  <executionTimeMS>11064</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="2">
+    <error count="1">
+      <code>1.2.10</code>
+      <details>Body Syntax error, The operator "EX" isn't supported.</details>
+    </error>
+    <error count="1">
+      <code>1.2.10</code>
+      <details>Body Syntax error, The operator "BX" isn't supported.</details>
+    </error>
+  </errors>
+</preflight>

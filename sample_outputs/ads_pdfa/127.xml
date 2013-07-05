@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="heritage1-12410.pdf">
+  <executionTimeMS>2682</executionTimeMS>
+  <isValid type="">false</isValid>
+  <exceptionThrown>
+    <message>missing initial moveto in path definition</message>
+    <stackTrace>java.awt.geom.IllegalPathStateException: missing initial moveto in path definition
+	at java.awt.geom.Path2D$Float.needRoom(Path2D.java:280)
+	at java.awt.geom.Path2D.closePath(Path2D.java:1769)
+	at org.apache.fontbox.cff.CharStringRenderer.closePath(CharStringRenderer.java:649)
+	at org.apache.fontbox.cff.CharStringRenderer.handleCommandType2(CharStringRenderer.java:270)
+	at org.apache.fontbox.cff.CharStringRenderer.handleCommand(CharStringRenderer.java:90)
+	at org.apache.fontbox.cff.CharStringHandler.handleSequence(CharStringHandler.java:53)
+	at org.apache.fontbox.cff.CharStringRenderer.render(CharStringRenderer.java:75)
+	at org.apache.fontbox.cff.CFFFont.getWidth(CFFFont.java:229)
+	at org.apache.pdfbox.preflight.font.container.Type1Container.getFontProgramWidth(Type1Container.java:94)
+	at org.apache.pdfbox.preflight.font.container.FontContainer.checkGlyphWith(FontContainer.java:115)
+	at org.apache.pdfbox.preflight.content.ContentStreamWrapper.validText(ContentStreamWrapper.java:373)
+	at org.apache.pdfbox.preflight.content.ContentStreamWrapper.validStringArray(ContentStreamWrapper.java:297)
+	at org.apache.pdfbox.preflight.content.ContentStreamWrapper.validStringArray(ContentStreamWrapper.java:293)
+	at org.apache.pdfbox.preflight.content.ContentStreamWrapper.checkShowTextOperators(ContentStreamWrapper.java:209)
+	at org.apache.pdfbox.preflight.content.ContentStreamWrapper.processOperator(ContentStreamWrapper.java:181)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:268)
+	at org.apache.pdfbox.util.PDFStreamEngine.processSubStream(PDFStreamEngine.java:235)
+	at org.apache.pdfbox.util.PDFStreamEngine.processStream(PDFStreamEngine.java:215)
+	at org.apache.pdfbox.preflight.content.ContentStreamWrapper.validPageContentStream(ContentStreamWrapper.java:76)
+	at org.apache.pdfbox.preflight.process.reflect.SinglePageValidationProcess.validateContent(SinglePageValidationProcess.java:179)
+	at org.apache.pdfbox.preflight.process.reflect.SinglePageValidationProcess.validate(SinglePageValidationProcess.java:87)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(ContextHelper.java:73)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(ContextHelper.java:52)
+	at org.apache.pdfbox.preflight.process.PageTreeValidationProcess.validatePage(PageTreeValidationProcess.java:58)
+	at org.apache.pdfbox.preflight.process.PageTreeValidationProcess.validate(PageTreeValidationProcess.java:47)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(ContextHelper.java:73)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(ContextHelper.java:88)
+	at org.apache.pdfbox.preflight.PreflightDocument.validate(PreflightDocument.java:168)
+	at org.apache.pdfbox.preflight.parser.XmlResultParser.validate(XmlResultParser.java:68)
+	at org.apache.pdfbox.preflight.parser.XmlResultParser.validate(XmlResultParser.java:49)
+	at org.apache.pdfbox.preflight.Validator_A1b.main(Validator_A1b.java:129)
+</stackTrace>
+  </exceptionThrown>
+</preflight>

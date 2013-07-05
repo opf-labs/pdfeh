@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="archaeol20-128219_4.pdf">
+  <executionTimeMS>989</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="1">
+    <error count="1">
+      <code>2.3.2</code>
+      <details>Unexpected key in Graphic object definition, The ColorSpace is unknown</details>
+    </error>
+  </errors>
+</preflight>

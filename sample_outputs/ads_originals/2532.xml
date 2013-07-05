@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="greenlan1-61205_1.pdf">
+  <executionTimeMS>17691</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="65024">
+    <error count="36">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="9">
+      <code>3.3.2</code>
+      <details>Glyph error, Z@R6C8.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="127">
+      <code>3.3.2</code>
+      <details>Glyph error, Z@R6C6.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="260">
+      <code>3.3.2</code>
+      <details>Glyph error, Z@R6C4.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="827">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,BoldItalic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="2298">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="59890">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="1577">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

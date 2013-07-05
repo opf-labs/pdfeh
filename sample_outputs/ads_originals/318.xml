@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="thejesso1-128766_1.pdf">
+  <executionTimeMS>12240</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="125">
+    <error count="1">
+      <code>3.3.1</code>
+      <details>Glyph error, The character "7" in the font program "AMMSGS+Calibri"is missing from the Charater Encoding.</details>
+    </error>
+    <error count="1">
+      <code>3.3.1</code>
+      <details>Glyph error, The character "5" in the font program "AMMSGS+Calibri"is missing from the Charater Encoding.</details>
+    </error>
+    <error count="1">
+      <code>3.3.1</code>
+      <details>Glyph error, The character "9" in the font program "AMMSGS+Calibri"is missing from the Charater Encoding.</details>
+    </error>
+    <error count="1">
+      <code>3.3.1</code>
+      <details>Glyph error, The character "1" in the font program "AMMSGS+Calibri"is missing from the Charater Encoding.</details>
+    </error>
+    <error count="2">
+      <code>3.3.1</code>
+      <details>Glyph error, The character "6" in the font program "AMMSGS+Calibri"is missing from the Charater Encoding.</details>
+    </error>
+    <error count="2">
+      <code>3.3.1</code>
+      <details>Glyph error, The character "8" in the font program "AMMSGS+Calibri"is missing from the Charater Encoding.</details>
+    </error>
+    <error count="2">
+      <code>3.3.1</code>
+      <details>Glyph error, The character "10" in the font program "AMMSGS+Calibri"is missing from the Charater Encoding.</details>
+    </error>
+    <error count="1">
+      <code>3.3.1</code>
+      <details>Glyph error, The character "4" in the font program "AMMSGS+Calibri"is missing from the Charater Encoding.</details>
+    </error>
+    <error count="33">
+      <code>3.3.1</code>
+      <details>Glyph error, The character "1" in the font program "PJOUEU+Cambria"is missing from the Charater Encoding.</details>
+    </error>
+    <error count="79">
+      <code>2.3.2</code>
+      <details>Unexpected key in Graphic object definition, Unexpected 'true' value for 'Interpolate' Key</details>
+    </error>
+    <error count="1">
+      <code>7.11</code>
+      <details>Error on MetaData</details>
+    </error>
+    <error count="1">
+      <code>1.0.6</code>
+      <details>Syntax error, Invalid float range in a Number operands</details>
+    </error>
+  </errors>
+</preflight>

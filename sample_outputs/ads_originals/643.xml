@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="southwes1-136541_1.pdf">
+  <executionTimeMS>19702</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="135678">
+    <error count="60">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="154">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,BoldItalic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="859">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="25">
+      <code>3.3.2</code>
+      <details>Glyph error, Symbol is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="96475">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="7251">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="1107">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="29286">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="461">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

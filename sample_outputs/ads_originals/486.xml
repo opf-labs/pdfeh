@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="thamesva1-133413_1.pdf">
+  <executionTimeMS>19957</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="41908">
+    <error count="79">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f*" can't be used without Color Profile</details>
+    </error>
+    <error count="8650">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+    </error>
+    <error count="8793">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "g" can't be used without Color Profile</details>
+    </error>
+    <error count="9344">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "G" can't be used without Color Profile</details>
+    </error>
+    <error count="303">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "RG" can't be used with CMYK Profile</details>
+    </error>
+    <error count="438">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "rg" can't be used with CMYK Profile</details>
+    </error>
+    <error count="1">
+      <code>7.1</code>
+      <details>Error on MetaData, Missing Metadata Key in catalog</details>
+    </error>
+    <error count="26">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="115">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR13.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="2">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR11.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="187">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTRE.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="11863">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="873">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="9">
+      <code>3.3.2</code>
+      <details>Glyph error, ArialNarrow is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="52">
+      <code>3.3.2</code>
+      <details>Glyph error, CenturyGothic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="1084">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="89">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

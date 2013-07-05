@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="heritage1-93701_1.pdf">
+  <executionTimeMS>7897</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="1">
+    <error count="1">
+      <code>2.4.2</code>
+      <details>Invalid Color space, DestOutputProfile isn't CMYK ColorSpace</details>
+    </error>
+  </errors>
+</preflight>

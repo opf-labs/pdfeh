@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="oxfordar1-128771_1.pdf">
+  <executionTimeMS>8103</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="5">
+    <error count="4">
+      <code>3.1.5</code>
+      <details>Invalid Font definition, The Encoding should be missing for the Symbolic TTF</details>
+    </error>
+    <error count="1">
+      <code>3.2.3</code>
+      <details>Font damaged, The FontFile can't be read</details>
+    </error>
+  </errors>
+</preflight>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="cfaarcha1-78625_2.pdf">
+  <executionTimeMS>412</executionTimeMS>
+  <isValid type="">false</isValid>
+  <errors count="3">
+    <error count="1">
+      <code>1.0</code>
+      <details>Syntax error, Expected pattern 'obj but missed at character 'o'</details>
+    </error>
+    <error count="1">
+      <code>1.2.1</code>
+      <details>Body Syntax error, Expected pattern 'obj but missed at character 'o'</details>
+    </error>
+    <error count="1">
+      <code>1.2.1</code>
+      <details>Body Syntax error, Single space expected</details>
+    </error>
+  </errors>
+</preflight>

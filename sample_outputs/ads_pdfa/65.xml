@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="suffolkc1-129525_1.pdf">
+  <executionTimeMS>4223</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="4">
+    <error count="2">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "8" in the font program "GKMHHM+MapInfoArrows"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="2">
+      <code>3.1.10</code>
+      <details>Invalid Font definition, CMapName or WMode is inconsistent</details>
+    </error>
+  </errors>
+</preflight>

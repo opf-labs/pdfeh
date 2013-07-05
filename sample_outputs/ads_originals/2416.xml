@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="headland1-118316_1.pdf">
+  <executionTimeMS>466</executionTimeMS>
+  <isValid type="">false</isValid>
+  <errors count="1">
+    <error count="1">
+      <code>1.0</code>
+      <details>Syntax error, Missing end of file marker '%%EOF'</details>
+    </error>
+  </errors>
+</preflight>

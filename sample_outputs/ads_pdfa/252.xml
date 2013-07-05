@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="archaeol7-85542_1.pdf">
+  <executionTimeMS>15857</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="3">
+    <error count="2">
+      <code>3.3.1</code>
+      <details>Glyph error, Unknown character CID(-1)</details>
+    </error>
+    <error count="1">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "33056" in the font program "ELJACA+ArialMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

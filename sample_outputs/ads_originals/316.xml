@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="thejesso1-124306_1.pdf">
+  <executionTimeMS>13708</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="160">
+    <error count="1">
+      <code>1.0.14</code>
+      <details>Syntax error, Object {83:0} has an offset of 0</details>
+    </error>
+    <error count="1">
+      <code>1.0.14</code>
+      <details>Syntax error, Object {10:0} has an offset of 0</details>
+    </error>
+    <error count="110">
+      <code>2.3.2</code>
+      <details>Unexpected key in Graphic object definition, Unexpected 'true' value for 'Interpolate' Key</details>
+    </error>
+    <error count="1">
+      <code>3.1.11</code>
+      <details>Invalid Font definition, The CIDSet entry is missing for the Composite Subset</details>
+    </error>
+    <error count="1">
+      <code>7.1</code>
+      <details>Error on MetaData, Missing Metadata Key in catalog</details>
+    </error>
+    <error count="23">
+      <code>2.2.2</code>
+      <details>Invalid Graphis transparency, Soft Mask must be null or None</details>
+    </error>
+    <error count="23">
+      <code>1.0.6</code>
+      <details>Syntax error, Invalid float range in a Number operands</details>
+    </error>
+  </errors>
+</preflight>

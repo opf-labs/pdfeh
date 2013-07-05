@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="headland1-104915_1.pdf">
+  <executionTimeMS>12051</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="32">
+    <error count="14">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "104" in the font program "FNMOJJ+MyriadPro-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="15">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "110" in the font program "FNMOJJ+MyriadPro-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="3">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "33056" in the font program "FKDJNG+BemboStd-Bold"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

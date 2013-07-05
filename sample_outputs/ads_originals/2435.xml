@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="headland1-142969_2.pdf">
+  <executionTimeMS>8794</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="554">
+    <error count="3">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "133" in the font program "FFEGIF+MyriadPro-LightIt"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="200">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "115" in the font program "FFEJOF+MyriadPro-LightCond"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="278">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "111" in the font program "FFEGIF+MyriadPro-LightIt"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="38">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "111" in the font program "FFDMMN+MyriadPro-It"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="35">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "97" in the font program "FFDMMN+MyriadPro-It"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

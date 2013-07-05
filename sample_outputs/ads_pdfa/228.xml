@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="archaeol11-109102_1.pdf">
+  <executionTimeMS>239701</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="12">
+    <error count="3">
+      <code>1.0.1</code>
+      <details>Syntax error, Too Many Entries In Dictionary</details>
+    </error>
+    <error count="9">
+      <code>3.1.10</code>
+      <details>Invalid Font definition, CMapName or WMode is inconsistent</details>
+    </error>
+  </errors>
+</preflight>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="thamesva1-140669_1.pdf">
+  <executionTimeMS>15326</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="6805">
+    <error count="14">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="56">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTRC3D.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="161">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTRC3B.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="4661">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="358">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="15">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTRC38.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="47">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTRC36.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="1404">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="89">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

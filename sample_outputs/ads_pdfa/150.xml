@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="molas1-12161_1.pdf">
+  <executionTimeMS>10438</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="4">
+    <error count="4">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "115" in the font program "KOJDOI+GillSans-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

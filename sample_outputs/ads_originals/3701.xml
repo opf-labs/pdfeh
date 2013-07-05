@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="aocarcha1-134419_1.pdf">
+  <executionTimeMS>47574</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="1">
+    <error count="1">
+      <code>7.1.1</code>
+      <details>Error on MetaData, No type defined for {http://ns.adobe.com/xap/1.0/mm/}subject</details>
+    </error>
+  </errors>
+</preflight>

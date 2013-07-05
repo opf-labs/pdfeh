@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="thamesva1-131399_1.pdf">
+  <executionTimeMS>16402</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="30412">
+    <error count="296">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f*" can't be used without Color Profile</details>
+    </error>
+    <error count="4097">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+    </error>
+    <error count="3635">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "g" can't be used without Color Profile</details>
+    </error>
+    <error count="5030">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "G" can't be used without Color Profile</details>
+    </error>
+    <error count="967">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "RG" can't be used with CMYK Profile</details>
+    </error>
+    <error count="1278">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "rg" can't be used with CMYK Profile</details>
+    </error>
+    <error count="1">
+      <code>7.1</code>
+      <details>Error on MetaData, Missing Metadata Key in catalog</details>
+    </error>
+    <error count="24">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="76">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR32.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="123">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR30.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="76">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR2E.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="86">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR2B.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="76">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR29.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="150">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR26.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="12779">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="604">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="17">
+      <code>3.3.2</code>
+      <details>Glyph error, ArialNarrow is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="64">
+      <code>3.3.2</code>
+      <details>Glyph error, CenturyGothic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="944">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="89">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

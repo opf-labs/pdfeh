@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="thamesva1-132358_1.pdf">
+  <executionTimeMS>13777</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="7211">
+    <error count="15">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="60">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTRDA.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="124">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTRD7.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="60">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTRD5.tmp,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="96">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTRD2.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="5256">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="467">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="14">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTRD0.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="62">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTRCE.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="968">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="89">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

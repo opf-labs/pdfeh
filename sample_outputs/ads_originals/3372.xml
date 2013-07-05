@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="archaeol7-123726_1.pdf">
+  <executionTimeMS>7976</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="3">
+    <error count="3">
+      <code>3.3.1</code>
+      <details>Glyph error, Unknown character CID(-1)</details>
+    </error>
+  </errors>
+</preflight>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="molas1-62865_1.pdf">
+  <executionTimeMS>71907</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="179">
+    <error count="58">
+      <code>1.2.10</code>
+      <details>Body Syntax error, The operator "EX" isn't supported.</details>
+    </error>
+    <error count="58">
+      <code>1.2.10</code>
+      <details>Body Syntax error, The operator "BX" isn't supported.</details>
+    </error>
+    <error count="21">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+    </error>
+    <error count="42">
+      <code>2.4.3</code>
+      <details>Invalid Color space, DestOutputProfile is missing</details>
+    </error>
+  </errors>
+</preflight>

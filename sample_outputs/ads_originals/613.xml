@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="southwes1-118728_1.pdf">
+  <executionTimeMS>3736</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="4618">
+    <error count="4">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="63">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="328">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="4223">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="suffolkc1-129748_1.pdf">
+  <executionTimeMS>10627</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="36">
+    <error count="20">
+      <code>3.1.10</code>
+      <details>Invalid Font definition, CMapName or WMode is inconsistent</details>
+    </error>
+    <error count="7">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "120" in the font program "JDCEBP+SymbolMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="5">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "120" in the font program "JDOAEM+SymbolMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="4">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "164" in the font program "JDOAEM+SymbolMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="molas1-23708_1.pdf">
+  <executionTimeMS>220457</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="2">
+    <error count="2">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "115" in the font program "BGGJAH+GillSans-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

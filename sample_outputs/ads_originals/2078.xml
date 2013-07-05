@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="katharin1-153307_1.pdf">
+  <executionTimeMS>6262</executionTimeMS>
+  <isValid type="">false</isValid>
+  <exceptionThrown>
+    <message>Failed to instanciate property</message>
+    <stackTrace>java.lang.IllegalArgumentException: Failed to instanciate property
+	at org.apache.xmpbox.type.TypeMapping.instanciateSimpleProperty(TypeMapping.java:198)
+	at org.apache.xmpbox.xml.DomXmpParser.manageSimpleType(DomXmpParser.java:368)
+	at org.apache.xmpbox.xml.DomXmpParser.createProperty(DomXmpParser.java:311)
+	at org.apache.xmpbox.xml.DomXmpParser.parseDescriptionRoot(DomXmpParser.java:265)
+	at org.apache.xmpbox.xml.DomXmpParser.parse(DomXmpParser.java:197)
+	at org.apache.xmpbox.xml.DomXmpParser.parse(DomXmpParser.java:106)
+	at org.apache.pdfbox.preflight.process.MetadataValidationProcess.validate(MetadataValidationProcess.java:66)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.callValidation(ContextHelper.java:73)
+	at org.apache.pdfbox.preflight.utils.ContextHelper.validateElement(ContextHelper.java:88)
+	at org.apache.pdfbox.preflight.PreflightDocument.validate(PreflightDocument.java:168)
+	at org.apache.pdfbox.preflight.parser.XmlResultParser.validate(XmlResultParser.java:68)
+	at org.apache.pdfbox.preflight.parser.XmlResultParser.validate(XmlResultParser.java:49)
+	at org.apache.pdfbox.preflight.Validator_A1b.main(Validator_A1b.java:129)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.xmpbox.type.TypeMapping.instanciateSimpleProperty(TypeMapping.java:178)
+	... 12 more
+Caused by: java.lang.IllegalArgumentException: Value given is not allowed for the Date type : class java.lang.String
+	at org.apache.xmpbox.type.DateType.setValue(DateType.java:120)
+	at org.apache.xmpbox.type.AbstractSimpleProperty.&lt;init&gt;(AbstractSimpleProperty.java:57)
+	at org.apache.xmpbox.type.DateType.&lt;init&gt;(DateType.java:57)
+	... 17 more
+</stackTrace>
+  </exceptionThrown>
+</preflight>

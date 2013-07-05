@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="southwes1-110591_1.pdf">
+  <executionTimeMS>14411</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="76793">
+    <error count="49">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="3">
+      <code>3.3.2</code>
+      <details>Glyph error, Symbol is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="1055">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="34346">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="1208">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="1450">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="38379">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="303">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

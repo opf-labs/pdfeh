@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="jbherita1-144463_1.pdf">
+  <executionTimeMS>15785</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="109">
+    <error count="1">
+      <code>1.0.14</code>
+      <details>Syntax error, Object {36:0} has an offset of 0</details>
+    </error>
+    <error count="1">
+      <code>1.0.14</code>
+      <details>Syntax error, Object {34:0} has an offset of 0</details>
+    </error>
+    <error count="1">
+      <code>7.1</code>
+      <details>Error on MetaData, Missing Metadata Key in catalog</details>
+    </error>
+    <error count="39">
+      <code>2.3.2</code>
+      <details>Unexpected key in Graphic object definition, Unexpected 'true' value for 'Interpolate' Key</details>
+    </error>
+    <error count="25">
+      <code>2.2.2</code>
+      <details>Invalid Graphis transparency, Soft Mask must be null or None</details>
+    </error>
+    <error count="42">
+      <code>5.1</code>
+      <details>Missing field in an annotation definition</details>
+    </error>
+  </errors>
+</preflight>

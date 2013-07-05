@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="oxfordar2-102715_3.pdf">
+  <executionTimeMS>94848</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="7">
+    <error count="7">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "58" in the font program "QTDRNM+TimesNewRoman,Bold"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

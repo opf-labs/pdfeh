@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="contexto1-134322_1.pdf">
+  <executionTimeMS>6922</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="1">
+    <error count="1">
+      <code>7.11.2</code>
+      <details>Error on MetaData</details>
+    </error>
+  </errors>
+</preflight>

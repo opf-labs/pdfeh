@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="molas1-125438_1.pdf">
+  <executionTimeMS>10235</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="1">
+    <error count="1">
+      <code>2.1.2</code>
+      <details>Invalid Graphis object, The OutputIntentCondition is missing</details>
+    </error>
+  </errors>
+</preflight>

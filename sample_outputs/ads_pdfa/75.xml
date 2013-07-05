@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="suffolkc1-77583_1.pdf">
+  <executionTimeMS>8490</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="23">
+    <error count="11">
+      <code>3.1.10</code>
+      <details>Invalid Font definition, CMapName or WMode is inconsistent</details>
+    </error>
+    <error count="12">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "6" in the font program "BKPELM+MapInfoSymbols"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

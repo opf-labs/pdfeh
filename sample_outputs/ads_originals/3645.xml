@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="archaeol28-131465_2.pdf">
+  <executionTimeMS>3339</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="11">
+    <error count="10">
+      <code>1.2.5</code>
+      <details>Body Syntax error, Stream length is invalide</details>
+    </error>
+    <error count="1">
+      <code>7.1</code>
+      <details>Error on MetaData, Missing Metadata Key in catalog</details>
+    </error>
+  </errors>
+</preflight>

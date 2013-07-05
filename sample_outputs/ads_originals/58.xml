@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="wygenvir1-140706_9.pdf">
+  <executionTimeMS>573</executionTimeMS>
+  <isValid type="">false</isValid>
+  <errors count="4">
+    <error count="1">
+      <code>1.0</code>
+      <details>Syntax error, Expected pattern 'obj but missed at character 'o'</details>
+    </error>
+    <error count="1">
+      <code>1.2.1</code>
+      <details>Body Syntax error, Expected pattern 'obj but missed at character 'o'</details>
+    </error>
+    <error count="1">
+      <code>1.2.1</code>
+      <details>Body Syntax error, Single space expected</details>
+    </error>
+    <error count="1">
+      <code>1.1</code>
+      <details>Body Syntax error, Second line must contains at least 4 bytes greater than 127</details>
+    </error>
+  </errors>
+</preflight>

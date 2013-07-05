@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="universi1-138207_1.pdf">
+  <executionTimeMS>6160</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="1">
+    <error count="1">
+      <code>1.4.9</code>
+      <details>Trailer Syntax error, Outline Hierarchy doesn't have Count entry</details>
+    </error>
+  </errors>
+</preflight>

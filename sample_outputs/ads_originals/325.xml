@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="trigpoin1-135127_1.pdf">
+  <executionTimeMS>7813</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="6">
+    <error count="1">
+      <code>3.1.11</code>
+      <details>Invalid Font definition, The CIDSet entry is missing for the Composite Subset</details>
+    </error>
+    <error count="1">
+      <code>3.2.2</code>
+      <details>Font damaged, The FontFile can't be read for NJJAGR+Z@R936A.tmp</details>
+    </error>
+    <error count="1">
+      <code>3.2.2</code>
+      <details>Font damaged, The FontFile can't be read for NJJAGR+Z@R9309.tmp</details>
+    </error>
+    <error count="1">
+      <code>3.2.2</code>
+      <details>Font damaged, The FontFile can't be read for XZINOR+Z@R90B4.tmp</details>
+    </error>
+    <error count="1">
+      <code>3.2.2</code>
+      <details>Font damaged, The FontFile can't be read for XZAAAA+Z@R8FA7.tmp</details>
+    </error>
+    <error count="1">
+      <code>3.2.3</code>
+      <details>Font damaged, The FontFile can't be read</details>
+    </error>
+  </errors>
+</preflight>

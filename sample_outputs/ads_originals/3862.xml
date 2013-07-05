@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="aocarcha1-101066_3.pdf">
+  <executionTimeMS>14023</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="9">
+    <error count="2">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "104" in the font program "BJBBFD+Helvetica"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="7">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "110" in the font program "BJBBFD+Helvetica"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

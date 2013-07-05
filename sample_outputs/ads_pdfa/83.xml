@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="universi1-57671_1.pdf">
+  <executionTimeMS>4343</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="262">
+    <error count="1">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "164" in the font program "JBKDMD+SymbolMT"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="232">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+    </error>
+    <error count="25">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "g" can't be used without Color Profile</details>
+    </error>
+    <error count="4">
+      <code>3.1.10</code>
+      <details>Invalid Font definition, CMapName or WMode is inconsistent</details>
+    </error>
+  </errors>
+</preflight>

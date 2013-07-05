@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="wardella2-125230_1.pdf">
+  <executionTimeMS>49735</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="89080">
+    <error count="1">
+      <code>7.11</code>
+      <details>Error on MetaData</details>
+    </error>
+    <error count="1923">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+    </error>
+    <error count="9290">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "g" can't be used without Color Profile</details>
+    </error>
+    <error count="49">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "G" can't be used without Color Profile</details>
+    </error>
+    <error count="39">
+      <code>2.4.1</code>
+      <details>Invalid Color space, The operator "rg" can't be used with CMYK Profile</details>
+    </error>
+    <error count="49">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="2">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,BoldItalic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="2265">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="154">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,BoldItalic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="11835">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="211">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="138">
+      <code>3.3.2</code>
+      <details>Glyph error, PalatinoLinotype,BoldItalic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="22">
+      <code>3.3.2</code>
+      <details>Glyph error, Symbol is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="508">
+      <code>3.3.2</code>
+      <details>Glyph error, TimesNewRoman is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="6819">
+      <code>3.3.2</code>
+      <details>Glyph error, PalatinoLinotype,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="54206">
+      <code>3.3.2</code>
+      <details>Glyph error, PalatinoLinotype is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="1569">
+      <code>3.3.2</code>
+      <details>Glyph error, PalatinoLinotype,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

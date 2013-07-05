@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="southwes1-56280_2.pdf">
+  <executionTimeMS>5345</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="1721">
+    <error count="4">
+      <code>8.1</code>
+      <details>Unknown error, Unable to process an element if it is null.</details>
+    </error>
+    <error count="130">
+      <code>3.3.2</code>
+      <details>Glyph error, ZTR871.tmp is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="64">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Italic is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="1237">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+    <error count="286">
+      <code>3.3.2</code>
+      <details>Glyph error, Arial,Bold is unknown wasn't found by the FontHelperValdiator</details>
+    </error>
+  </errors>
+</preflight>

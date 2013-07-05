@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="headland4-135785_1.pdf">
+  <executionTimeMS>23076</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="307">
+    <error count="3">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "104" in the font program "DEDLBI+MyriadPro-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="8">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "110" in the font program "DEDLBI+MyriadPro-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="53">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "111" in the font program "DECNLI+MyriadPro-It"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="123">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "97" in the font program "DECNLI+MyriadPro-It"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+    <error count="120">
+      <code>1.2.5</code>
+      <details>Body Syntax error, Stream length is invalide</details>
+    </error>
+  </errors>
+</preflight>

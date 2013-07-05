@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="suffolkc1-57204_1.pdf">
+  <executionTimeMS>7570</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="7">
+    <error count="7">
+      <code>3.1.10</code>
+      <details>Invalid Font definition, CMapName or WMode is inconsistent</details>
+    </error>
+  </errors>
+</preflight>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="lincsarc1-19049_1.pdf">
+  <executionTimeMS>8032</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="27">
+    <error count="19">
+      <code>2.3.2</code>
+      <details>Unexpected key in Graphic object definition, TR2 key only expect 'default' value, not 'Default'</details>
+    </error>
+    <error count="8">
+      <code>3.1.6</code>
+      <details>Invalid Font definition, Width of the character "153" in the font program "GFLDDN+Wingdings-Regular"is inconsistent with the width in the PDF dictionary.</details>
+    </error>
+  </errors>
+</preflight>

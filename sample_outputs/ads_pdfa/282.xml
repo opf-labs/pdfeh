@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preflight name="cotswold2-98290_1.pdf">
+  <executionTimeMS>6965</executionTimeMS>
+  <isValid type="PDF/A1-b">false</isValid>
+  <errors count="498">
+    <error count="480">
+      <code>2.4.3</code>
+      <details>Invalid Color space, The operator "f" can't be used without Color Profile</details>
+    </error>
+    <error count="18">
+      <code>3.1.10</code>
+      <details>Invalid Font definition, CMapName or WMode is inconsistent</details>
+    </error>
+  </errors>
+</preflight>
